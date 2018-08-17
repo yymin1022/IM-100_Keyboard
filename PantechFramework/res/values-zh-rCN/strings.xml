@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="date_picker_dialog_title">设置日期</string>
+<string name="popup_cancel">取消</string>
+<string name="popup_ok">确定</string>
+<string name="time_picker_dialog_title">设置时间</string>
+</resources>

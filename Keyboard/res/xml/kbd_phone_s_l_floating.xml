@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Keyboard xmlns:latin="http://schemas.android.com/apk/res/com.pantech.inputmethod.skyime" latin:keyboardHeight="@dimen/floating_keyboard_height" latin:minKeyboardHeight="@dimen/floating_keyboard_height" latin:rowHeight="@fraction/floating_number_keyheight" latin:keyWidth="26.250004%p">
+	<include latin:keyboardLayout="@xml/kbd_key_styles" />
+	<include latin:keyboardLayout="@xml/kbd_numkey_styles" />
+	<Row>
+		<Key latin:keyStyle="num1KeyStyle" />
+		<Key latin:keyStyle="num2KeyStyle" />
+		<Key latin:keyStyle="num3KeyStyle" />
+		<Key latin:keyStyle="deletePortraitFloatingKeyStyle" latin:keyWidth="@fraction/key_width_num_right" />
+	</Row>
+	<Row>
+		<Key latin:keyStyle="num4KeyStyle" />
+		<Key latin:keyStyle="num5KeyStyle" />
+		<Key latin:keyStyle="num6KeyStyle" />
+		<Key latin:keyStyle="numSpacePortraitFloatingKeyStyle" latin:keyWidth="@fraction/key_width_num_right" />
+	</Row>
+	<Row>
+		<Key latin:keyStyle="num7KeyStyle" />
+		<Key latin:keyStyle="num8KeyStyle" />
+		<Key latin:keyStyle="num9KeyStyle" />
+		<Key latin:keyLabel="+" latin:keyStyle="numFunctionalKeyStyle" latin:keyWidth="@fraction/key_width_num_right" />
+	</Row>
+	<Row>
+		<Key latin:keyStyle="numStarKeyStyle" />
+		<Key latin:keyStyle="num0KeyStyle" />
+		<Key latin:keyStyle="numHashKeyStyle" />
+		<Key latin:keyLabel="-" latin:keyStyle="numFunctionalKeyStyle" latin:keyWidth="@fraction/key_width_num_right" />
+	</Row>
+	<Row>
+		<Key latin:keyOutputText=";" latin:keyLabel="P(;)" latin:keyStyle="numFunctionalMorePortraitFloatingKeyStyle" />
+		<Key latin:keyOutputText="," latin:keyLabel="T(,)" latin:keyStyle="numFunctionalKeyStyle" />
+		<Key latin:keyLabel="." latin:keyStyle="numFunctionalKeyStyle" />
+		<Key latin:keyStyle="returnPortraitFloatingKeyStyle" latin:keyWidth="@fraction/key_width_num_right" />
+	</Row>
+</Keyboard>

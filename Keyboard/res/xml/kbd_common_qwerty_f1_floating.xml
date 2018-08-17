@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<merge xmlns:latin="http://schemas.android.com/apk/res/com.pantech.inputmethod.skyime">
+	<switch>
+		<case latin:hasShortcutKey="true">
+			<Key latin:keyStyle="morePeriod" />
+		</case>
+		<default>
+			<Key latin:keyStyle="morePeriod" />
+		</default>
+	</switch>
+</merge>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<merge xmlns:latin="http://schemas.android.com/apk/res/com.pantech.inputmethod.skyime">
+	<Row latin:rowHeight="@dimen/floating_common_keyheight">
+		<Key latin:keyStyle="moreSettings" latin:keyWidth="@fraction/key_width_numsym" />
+		<Key latin:keyStyle="switchKoreanLandscapeFloatingKeyStyle" latin:keyWidth="@fraction/key_width_kor_eng" />
+		<switch>
+			<case latin:mode="url">
+				<Key latin:keyStyle="dotComKeyStyle" latin:keyWidth="@fraction/key_width_mail_url" />
+				<Key latin:keyStyle="spaceKeyStyle" latin:keyWidth="@fraction/key_width_space_mail_url" />
+			</case>
+			<case latin:mode="email">
+				<Key latin:keyStyle="atMarkKeyStyle" latin:keyWidth="@fraction/key_width_mail_url" />
+				<Key latin:keyStyle="spaceKeyStyle" latin:keyWidth="@fraction/key_width_space_mail_url" />
+			</case>
+			<default>
+				<Key latin:keyStyle="spaceKeyStyle" latin:keyWidth="@fraction/key_width_space_normal" />
+			</default>
+		</switch>
+		<Key latin:keyStyle="morePeriod" latin:keyWidth="@fraction/key_width_dot" />
+		<Key latin:keyStyle="returnKeyStyle" latin:keyWidth="@fraction/key_width_action" />
+	</Row>
+</merge>

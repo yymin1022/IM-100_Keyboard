@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+		<ImageView android:id="@id/kor_keyboard_type_preview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+	</RelativeLayout>
+	<View android:background="#33cbcbcb" android:layout_width="0.5dip" android:layout_height="fill_parent" />
+	<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+		<ListView android:id="@id/kor_keyboard_type_list" android:paddingBottom="@dimen/bottom_confirm_button_height" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:choiceMode="singleChoice" />
+		<RelativeLayout android:layout_gravity="bottom" android:layout_width="wrap_content" android:layout_height="wrap_content">
+			<include layout="@layout/bottom_confirm_button" />
+		</RelativeLayout>
+	</FrameLayout>
+</LinearLayout>

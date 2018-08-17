@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?attr/miniKeyboardPanelStyle">
+	<com.pantech.inputmethod.keyboard.MiniKeyboardView xmlns:latin="http://schemas.android.com/apk/res/com.pantech.inputmethod.skyime" android:id="@id/mini_keyboard_view" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</LinearLayout>

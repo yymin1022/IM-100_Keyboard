@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Keyboard xmlns:latin="http://schemas.android.com/apk/res/com.pantech.inputmethod.skyime" latin:minKeyboardHeight="@dimen/keyboardHeight_hwr" latin:keyboardTopPadding="@dimen/edit_top_padding">
+	<include latin:keyboardLayout="@xml/kbd_key_styles" />
+	<Row latin:rowHeight="@dimen/edit_keyheight_top" latin:keyWidth="20.000004%p">
+		<Key latin:code="@integer/key_select" latin:keyStyle="selectToggleKeyStyle" />
+		<Key latin:code="@integer/key_cut" latin:keyStyle="cutKeyStyle" />
+		<Key latin:code="@integer/key_copy" latin:keyStyle="copyKeyStyle" />
+		<Key latin:code="@integer/key_paste" latin:keyStyle="pasteKeyStyle" />
+		<Key latin:code="@integer/key_close" latin:keyStyle="closeKeyStyle" />
+	</Row>
+	<Row latin:rowHeight="@dimen/edit_move_keyheight_normal">
+		<Key latin:keyStyle="moveKeyStyle" latin:enabled="false" latin:keyWidth="100.0%p" />
+	</Row>
+	<Row latin:rowHeight="@dimen/edit_keyheight_bottom">
+		<Key latin:code="@integer/key_all" latin:keyStyle="selectAllKeyStyle" latin:keyWidth="20.000004%p" />
+		<Key latin:code="@integer/key_del" latin:keyStyle="delKeyStyle" latin:keyWidth="10.000002%p" />
+		<Key latin:keyStyle="spaceKeyStyle" latin:keyWidth="39.900005%p" />
+		<Key latin:code="@integer/key_delete" latin:keyStyle="deleteKeyStyle" latin:keyWidth="10.000002%p" />
+		<Key latin:keyStyle="returnKeyStyle" latin:keyWidth="20.000004%p" />
+	</Row>
+</Keyboard>

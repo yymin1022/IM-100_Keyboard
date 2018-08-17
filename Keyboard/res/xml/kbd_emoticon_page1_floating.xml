@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Keyboard xmlns:latin="http://schemas.android.com/apk/res/com.pantech.inputmethod.skyime" latin:keyboardHeight="@dimen/floating_keyboard_height" latin:minKeyboardHeight="@dimen/floating_keyboard_height" latin:rowHeight="@dimen/floating_keypad_keyheight" latin:keyWidth="25.0%p">
+	<include latin:keyboardLayout="@xml/kbd_key_styles" />
+	<switch>
+		<case latin:hideEmojiMode="true">
+			<include latin:keyboardLayout="@xml/kbd_top_number_row_floating" />
+		</case>
+		<default>
+			<include latin:keyboardLayout="@xml/kbd_top_symbol_emoji_row_floating" />
+		</default>
+	</switch>
+	<include latin:keyboardLayout="@xml/kbd_emoticon_page1_rows" />
+	<include latin:keyboardLayout="@xml/kbd_emoji_bottom_floating" />
+</Keyboard>

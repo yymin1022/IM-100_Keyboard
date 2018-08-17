@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<bool name="im_is_default">true</bool>
+<bool name="config_use_fullscreen_mode">false</bool>
+<bool name="config_enable_show_popup_on_keypress_option">true</bool>
+<bool name="config_enable_bigram_suggestions_option">false</bool>
+<bool name="config_enable_usability_study_mode_option">false</bool>
+<bool name="config_sliding_key_input_enabled">true</bool>
+<bool name="config_digit_more_keys_enabled">true</bool>
+<bool name="config_default_popup_preview">true</bool>
+<bool name="config_default_bigram_suggestions">false</bool>
+<bool name="config_default_bigram_prediction">false</bool>
+<bool name="config_show_mini_keyboard_at_touched_point">false</bool>
+<bool name="config_require_umlaut_processing">false</bool>
+<bool name="config_default_show_suggestions">false</bool>
+<bool name="config_default_auto_correction">false</bool>
+<bool name="config_default_enable_span_insert">false</bool>
+<bool name="config_default_use_contacts_dict">false</bool>
+<bool name="config_use_gesture_shake_longinput">false</bool>
+<bool name="config_use_gesture_swipedown_close">false</bool>
+<bool name="config_use_gesture_swipeup_editmode">false</bool>
+<bool name="config_use_gesture_swipe_change_keyboard">false</bool>
+<bool name="config_use_gesture_split_keyboard">false</bool>
+<bool name="config_default_use_all_gesture">false</bool>
+<bool name="config_default_double_spaces_turn_into_period">false</bool>
+<bool name="config_default_qwerty_doubletap">false</bool>
+<bool name="config_default_one_hand_layout">false</bool>
+<bool name="config_use_split_layout">true</bool>
+<bool name="config_default_sound_enabled">false</bool>
+<bool name="config_default_vibration_enabled">true</bool>
+<bool name="config_default_number_keys_added">true</bool>
+<bool name="config_default_show_qwerty_long_input">true</bool>
+<bool name="config_use_portrait_floating_mode">true</bool>
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<color name="white">#ffffffff</color>
+<color name="w_symbol_text">#ff494949</color>
+<color name="color_text_cl">#ff2f3234</color>
+<color name="color_functional_cl">#ff323232</color>
+<color name="color_number_cl">#ff157ead</color>
+<color name="color_number_clb">#ffff8e43</color>
+<color name="long_input_text">#ff9b9ba0</color>
+<color name="transparent">#00000000</color>
+<color name="black">#ff000000</color>
+<color name="suggestion_normal">#ff1dafdb</color>
+<color name="suggestion_recommended">#ff1dafdb</color>
+<color name="suggestion_focus">#ffbfbfbf</color>
+<color name="suggestion_focus_w">#ff414141</color>
+<color name="suggestion_pressed">#ffffffff</color>
+<color name="help_title">#ff333333</color>
+<color name="help_summary">#ff78a0a0</color>
+<color name="style_opacity_subtitle_color">#ff000000</color>
+<color name="action_text_selector_disable">#ff6b6b6b</color>
+<color name="action_text_selector_pressed">#ff000000</color>
+<color name="help_gesture_image_background">#ff1d2840</color>
+<color name="help_gesture_text_color">#fff5f5f5</color>
+<color name="color_typed_word_icontype4m">#ff323232</color>
+<color name="color_popup_menu_text_light">#fff0f0f0</color>
+<color name="color_popup_menu_text_dark">#ff303030</color>
+<color name="color_popup_title_text_light">#ffffffff</color>
+<color name="color_popup_title_text_dark">#ff222222</color>
+</resources>

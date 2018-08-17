@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<com.pantech.widget.SkyTabHost xmlns:android="http://schemas.android.com/apk/res/android" android:id="@android:id/tabhost" android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+		<LinearLayout android:orientation="vertical" android:id="@id/widget_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+			<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+				<com.pantech.widget.SkyTabWidget android:id="@android:id/tabs" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+				<com.pantech.widget.SkyTabWidget android:id="@id/tabs_back" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+				<ImageButton android:id="@id/btnMore" android:visibility="gone" android:layout_width="35.0dip" android:layout_height="wrap_content" android:layout_weight="0.0" />
+			</LinearLayout>
+			<ImageView android:layout_gravity="center" android:id="@id/divider" android:layout_width="wrap_content" android:layout_height="wrap_content" android_layout_weight="0" />
+			<TextView android:textColor="@color/tab_content_color" android:layout_gravity="center" android:id="@id/tabtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="0.0" />
+		</LinearLayout>
+		<FrameLayout android:id="@android:id/tabcontent" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+	</LinearLayout>
+</com.pantech.widget.SkyTabHost>

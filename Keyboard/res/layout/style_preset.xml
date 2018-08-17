@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_weight="1.0" android:rowCount="4" android:rowOrderPreserved="true" android:columnCount="5">
+	<FrameLayout android:id="@id/styleBtn_1" android:background="@drawable/keypad_style_01_thumbnail" android:focusable="true" android:nextFocusLeft="@id/style_reset_button" android:layout_column="0" android:layout_row="0" style="@style/PresetStyle" />
+	<FrameLayout android:id="@id/styleBtn_2" android:background="@drawable/keypad_style_02_thumbnail" android:focusable="true" android:layout_column="1" android:layout_row="0" style="@style/PresetStyle" />
+	<FrameLayout android:id="@id/styleBtn_3" android:background="@drawable/keypad_style_03_thumbnail" android:focusable="true" android:layout_column="2" android:layout_row="0" style="@style/PresetStyle" />
+	<FrameLayout android:id="@id/styleBtn_4" android:background="@drawable/keypad_style_04_thumbnail" android:focusable="true" android:layout_column="3" android:layout_row="0" style="@style/PresetStyle" />
+	<FrameLayout android:id="@id/styleBtn_5" android:background="@drawable/keypad_style_05_thumbnail" android:focusable="true" android:nextFocusRight="@id/styleBtn_6" android:layout_column="4" android:layout_row="0" style="@style/PresetStyle" />
+	<FrameLayout android:id="@id/styleBtn_6" android:background="@drawable/keypad_style_06_thumbnail" android:focusable="true" android:nextFocusLeft="@id/styleBtn_5" android:layout_column="0" android:layout_row="1" style="@style/PresetStyle" />
+	<FrameLayout android:id="@id/styleBtn_7" android:background="@drawable/keypad_style_07_thumbnail" android:focusable="true" android:layout_column="1" android:layout_row="1" style="@style/PresetStyle" />
+	<FrameLayout android:id="@id/styleBtn_8" android:background="@drawable/keypad_style_08_thumbnail" android:focusable="true" android:layout_column="2" android:layout_row="1" style="@style/PresetStyle" />
+	<FrameLayout android:id="@id/styleBtn_9" android:background="@drawable/keypad_style_09_thumbnail" android:focusable="true" android:layout_column="3" android:layout_row="1" style="@style/PresetStyle" />
+	<FrameLayout android:id="@id/styleBtn_10" android:background="@drawable/keypad_style_10_thumbnail" android:focusable="true" android:nextFocusRight="@id/styleBtn_11" android:layout_column="4" android:layout_row="1" style="@style/PresetStyle" />
+	<FrameLayout android:id="@id/styleBtn_11" android:background="@drawable/keypad_style_11_thumbnail" android:focusable="true" android:nextFocusLeft="@id/styleBtn_10" android:layout_column="0" android:layout_row="2" style="@style/PresetStyle" />
+	<FrameLayout android:id="@id/styleBtn_12" android:background="@drawable/keypad_style_12_thumbnail" android:focusable="true" android:layout_column="1" android:layout_row="2" style="@style/PresetStyle" />
+	<FrameLayout android:id="@id/styleBtn_13" android:background="@drawable/keypad_style_13_thumbnail" android:focusable="true" android:layout_column="2" android:layout_row="2" style="@style/PresetStyle" />
+	<FrameLayout android:id="@id/styleBtn_14" android:background="@drawable/keypad_style_14_thumbnail" android:focusable="true" android:layout_column="3" android:layout_row="2" style="@style/PresetStyle" />
+	<FrameLayout android:id="@id/styleBtn_15" android:background="@drawable/keypad_style_15_thumbnail" android:focusable="true" android:nextFocusRight="@id/styleBtn_16" android:layout_column="4" android:layout_row="2" style="@style/PresetStyle" />
+	<FrameLayout android:id="@id/styleBtn_16" android:background="@drawable/keypad_style_16_thumbnail" android:focusable="true" android:nextFocusLeft="@id/styleBtn_15" android:layout_column="0" android:layout_row="3" style="@style/PresetStyle" />
+	<FrameLayout android:id="@id/styleBtn_17" android:background="@drawable/keypad_style_17_thumbnail" android:focusable="true" android:layout_column="1" android:layout_row="3" style="@style/PresetStyle" />
+	<FrameLayout android:id="@id/styleBtn_18" android:background="@drawable/keypad_style_18_thumbnail" android:focusable="true" android:layout_column="2" android:layout_row="3" style="@style/PresetStyle" />
+	<FrameLayout android:id="@id/styleBtn_19" android:background="@drawable/keypad_style_19_thumbnail" android:focusable="true" android:layout_column="3" android:layout_row="3" style="@style/PresetStyle" />
+	<FrameLayout android:id="@id/styleBtn_20" android:background="@drawable/keypad_style_20_thumbnail" android:focusable="true" android:nextFocusRight="@id/seekbar_text" android:layout_column="4" android:layout_row="3" style="@style/PresetStyle" />
+</GridLayout>

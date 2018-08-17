@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Keyboard xmlns:latin="http://schemas.android.com/apk/res/com.pantech.inputmethod.skyime" latin:keyboardHeight="@dimen/floating_keyboard_height" latin:minKeyboardHeight="@dimen/floating_keyboard_height" latin:rowHeight="@dimen/floating_qwerty_keyheight">
+	<include latin:keyboardLayout="@xml/kbd_key_styles" />
+	<include latin:keyboardLayout="@xml/kbd_top_number_row_floating" />
+	<include latin:keyboardLayout="@xml/kbd_kor_qwerty_row_floating" />
+	<include latin:keyboardLayout="@xml/kbd_kor_qwerty_bottom_floating" />
+</Keyboard>

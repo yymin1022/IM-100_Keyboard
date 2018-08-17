@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<merge xmlns:latin="http://schemas.android.com/apk/res/com.pantech.inputmethod.skyime">
+	<key-style latin:code="@integer/key_shift" latin:backgroundType="sticky" latin:keyIcon="iconShiftKey" latin:keyIconShifted="iconShiftedShiftKey" latin:keyIconShiftLocked="iconShiftLockedKey" latin:styleName="shiftKeyStyle" />
+	<key-style latin:code="@integer/key_shift" latin:backgroundType="sticky" latin:keyIcon="iconShiftFloatingKey" latin:keyIconShifted="iconShiftOnFloatingKey" latin:keyIconShiftLocked="iconShiftLockFloatingKey" latin:styleName="shiftPortraitFloatingKeyStyle" />
+	<key-style latin:code="@integer/key_delete" latin:backgroundType="sticky" latin:isRepeatable="true" latin:keyIcon="iconDeleteKey" latin:styleName="deleteKeyStyle" />
+	<key-style latin:code="@integer/key_delete" latin:backgroundType="sticky" latin:isRepeatable="true" latin:keyIcon="iconDeleteFloatingKey" latin:styleName="deletePortraitFloatingKeyStyle" />
+	<key-style latin:code="@integer/key_return" latin:moreKeys="\@icon/3|@integer/key_hide_ime" latin:backgroundType="functional" latin:keyLabelOption="fontFunction" latin:keyIconHint="iconHintHideKey" latin:styleName="returnPKeyStyle" />
+	<switch>
+		<case latin:imeAction="actionGo">
+			<key-style latin:keyLabel="@string/label_action_go" latin:styleName="returnKeyStyle" latin:parentStyle="returnPKeyStyle" />
+			<key-style latin:keyLabel="@string/label_action_go" latin:keyIconHint="iconHintFloatingHideKey" latin:styleName="returnPortraitFloatingKeyStyle" latin:parentStyle="returnPKeyStyle" />
+		</case>
+		<case latin:imeAction="actionNext">
+			<key-style latin:keyLabel="@string/label_action_next" latin:styleName="returnKeyStyle" latin:parentStyle="returnPKeyStyle" />
+			<key-style latin:keyLabel="@string/label_action_next" latin:keyIconHint="iconHintFloatingHideKey" latin:styleName="returnPortraitFloatingKeyStyle" latin:parentStyle="returnPKeyStyle" />
+		</case>
+		<case latin:imeAction="actionDone">
+			<key-style latin:keyLabel="@string/label_action_ok" latin:styleName="returnKeyStyle" latin:parentStyle="returnPKeyStyle" />
+			<key-style latin:keyLabel="@string/label_action_ok" latin:keyIconHint="iconHintFloatingHideKey" latin:styleName="returnPortraitFloatingKeyStyle" latin:parentStyle="returnPKeyStyle" />
+		</case>
+		<case latin:imeAction="actionSend">
+			<key-style latin:keyLabel="@string/label_action_send" latin:styleName="returnKeyStyle" latin:parentStyle="returnPKeyStyle" />
+			<key-style latin:keyLabel="@string/label_action_send" latin:keyIconHint="iconHintFloatingHideKey" latin:styleName="returnPortraitFloatingKeyStyle" latin:parentStyle="returnPKeyStyle" />
+		</case>
+		<case latin:imeAction="actionSearch">
+			<key-style latin:keyIcon="iconSearchKey" latin:styleName="returnKeyStyle" latin:parentStyle="returnPKeyStyle" />
+			<key-style latin:keyIcon="iconSearchKey" latin:keyIconHint="iconHintFloatingHideKey" latin:styleName="returnPortraitFloatingKeyStyle" latin:parentStyle="returnPKeyStyle" />
+		</case>
+		<default>
+			<key-style latin:keyIcon="iconReturnKey" latin:styleName="returnKeyStyle" latin:parentStyle="returnPKeyStyle" />
+			<key-style latin:keyIcon="iconActionEnterFloatingKey" latin:keyIconHint="iconHintFloatingHideKey" latin:styleName="returnPortraitFloatingKeyStyle" latin:parentStyle="returnPKeyStyle" />
+		</default>
+	</switch>
+	<switch>
+		<case latin:clobberSettingsKey="true">
+			<key-style latin:code="@integer/key_space" latin:backgroundType="functional" latin:isRepeatable="false" latin:keyIcon="iconSpaceKey" latin:styleName="spaceKeyStyle" />
+		</case>
+		<default>
+			<key-style latin:code="@integer/key_space" latin:moreKeys="\@icon/3|@integer/key_edit" latin:backgroundType="functional" latin:isRepeatable="false" latin:keyIcon="iconSpaceKey" latin:keyIconHint="iconHintEditModeKey" latin:styleName="spaceKeyStyle" />
+		</default>
+	</switch>
+	<key-style latin:code="@integer/key_space" latin:moreKeys="\@icon/3|@integer/key_edit" latin:backgroundType="functional" latin:isRepeatable="false" latin:keyIcon="iconSpaceFloatingKey" latin:keyIconHint="iconHintEditModeKey" latin:styleName="spacePortraitFloatingKeyStyle" />
+	<key-style latin:code="@integer/key_edit_touch_pannel" latin:backgroundType="touchPannel" latin:keyHintLabel="@string/edit_label_hint" latin:styleName="moveKeyStyle" />
+	<key-style latin:backgroundType="functional" latin:isRepeatable="false" latin:keyLabel="@string/edit_selectAll" latin:keyLabelOption="fontFunction" latin:styleName="selectAllKeyStyle" />
+	<key-style latin:backgroundType="functional" latin:isRepeatable="false" latin:keyLabel="@string/edit_select" latin:keyLabelOption="fontFunction" latin:styleName="selectToggleKeyStyle" />
+	<key-style latin:backgroundType="functional" latin:isRepeatable="false" latin:keyLabel="@string/edit_close" latin:keyLabelOption="fontFunction" latin:styleName="closeKeyStyle" />
+	<key-style latin:backgroundType="functional" latin:isRepeatable="true" latin:keyLabel="@string/edit_del" latin:keyLabelOption="fontFunction" latin:styleName="delKeyStyle" />
+	<key-style latin:backgroundType="functional" latin:isRepeatable="false" latin:keyLabel="@string/edit_cut" latin:keyLabelOption="fontFunction" latin:styleName="cutKeyStyle" />
+	<key-style latin:backgroundType="functional" latin:isRepeatable="false" latin:keyLabel="@string/edit_copy" latin:keyLabelOption="fontFunction" latin:styleName="copyKeyStyle" />
+	<key-style latin:backgroundType="functional" latin:isRepeatable="false" latin:keyLabel="@string/edit_paste" latin:keyLabelOption="fontFunction" latin:styleName="pasteKeyStyle" />
+	<key-style latin:code="1" latin:moreKeys="url" latin:maxMoreKeysColumn="3" latin:backgroundType="functional" latin:keyOutputText=".com" latin:keyLabel="@string/label_dotcom" latin:keyIconHint="iconHintUriKey" latin:styleName="dotComKeyStyle" />
+	<key-style latin:code="64" latin:moreKeys="email" latin:maxMoreKeysColumn="2" latin:backgroundType="functional" latin:keyLabel="@string/label_atmark" latin:keyIconHint="iconHintUriKey" latin:styleName="atMarkKeyStyle" />
+	<key-style latin:code="1" latin:moreKeys="url" latin:maxMoreKeysColumn="3" latin:backgroundType="functional" latin:keyOutputText=".com" latin:keyLabel=".com" latin:keyIconHint="iconHintFloatingDomainKey" latin:styleName="dotComPortraitFloatingKeyStyle" />
+	<key-style latin:code="64" latin:moreKeys="email" latin:maxMoreKeysColumn="2" latin:backgroundType="functional" latin:keyLabel="\@" latin:keyIconHint="iconHintFloatingDomainKey" latin:styleName="atMarkPortraitFloatingKeyStyle" />
+	<key-style latin:code="@integer/key_space" latin:moreKeys="\@icon/3|@integer/key_edit" latin:backgroundType="functional" latin:isRepeatable="false" latin:keyIcon="iconSpaceSmallKey" latin:keyIconHint="iconHintEditModeKey" latin:styleName="spaceSmallKeyStyle" />
+	<key-style latin:code="1" latin:moreKeys="period" latin:maxMoreKeysColumn="5" latin:backgroundType="functional" latin:keyOutputText="." latin:keyLabel="." latin:keyIconHint="iconHintCustomSymbolsKey" latin:styleName="morePeriod" />
+	<key-style latin:code="1" latin:moreKeys="period" latin:maxMoreKeysColumn="5" latin:backgroundType="functional" latin:keyOutputText="." latin:keyLabel="." latin:keyIconHint="iconHintFloatingCommonKey" latin:styleName="morePeriodPortraitFloatingKeyStyle" />
+	<switch>
+		<case latin:clobberSettingsKey="true">
+			<key-style latin:code="1" latin:maxMoreKeysColumn="5" latin:backgroundType="functional" latin:keyLabel=".,?!" latin:styleName="moreSymbolsPopupInCJI" />
+		</case>
+		<default>
+			<key-style latin:code="1" latin:moreKeys="period" latin:maxMoreKeysColumn="5" latin:backgroundType="functional" latin:keyLabel=".,?!" latin:keyIconHint="iconHintCustomSymbolsKey" latin:styleName="moreSymbolsPopupInCJI" />
+		</default>
+	</switch>
+	<switch>
+		<case latin:clobberSettingsKey="true">
+			<key-style latin:code="@integer/key_switch_alpha_symbol" latin:backgroundType="functional" latin:keyLabel="@string/label_switch_numsym" latin:keyLabelOption="fontFunction" latin:styleName="moreSettings" />
+			<key-style latin:code="@integer/key_switch_alpha_symbol" latin:backgroundType="functional" latin:keyLabel="@string/label_switch_numsym" latin:styleName="moreSettingsPortraitFloatingKeyStyle" />
+		</case>
+		<default>
+			<key-style latin:code="@integer/key_switch_alpha_symbol" latin:moreKeys="settings" latin:maxMoreKeysColumn="4" latin:backgroundType="functional" latin:keyLabel="@string/label_switch_numsym" latin:keyLabelOption="fontFunction" latin:keyIconHint="iconHintSettingKey" latin:styleName="moreSettings" />
+			<key-style latin:code="@integer/key_switch_alpha_symbol" latin:moreKeys="settings" latin:maxMoreKeysColumn="4" latin:backgroundType="functional" latin:keyLabel="@string/label_switch_numsym" latin:keyIconHint="iconHintFloatingSettingKey" latin:styleName="moreSettingsPortraitFloatingKeyStyle" />
+		</default>
+	</switch>
+	<key-style latin:code="@integer/key_shortcut" latin:moreKeys="settings" latin:maxMoreKeysColumn="4" latin:backgroundType="functional" latin:keyIconHint="iconHintSettingKey" latin:styleName="moreSettings3" />
+	<switch>
+		<case latin:hasShortcutKey="true">
+			<key-style latin:code="@integer/key_shortcut" latin:backgroundType="functional" latin:keyIcon="iconShortcutKey" latin:styleName="shortcutKeyStyle" />
+		</case>
+		<default>
+			<key-style latin:backgroundType="functional" latin:keyLabel="." latin:styleName="shortcutKeyStyle" />
+		</default>
+	</switch>
+	<key-style latin:code="@integer/key_settings" latin:backgroundType="functional" latin:keyIcon="iconSettingsKey" latin:styleName="settingsKeyStyle" />
+	<key-style latin:code="@integer/key_delete" latin:backgroundType="functional" latin:isRepeatable="true" latin:keyIcon="iconDeleteSmallKey" latin:styleName="deleteKeySmallStyle" />
+	<key-style latin:code="@integer/key_switch_kor" latin:backgroundType="functional" latin:keyLabel="@string/label_korean" latin:keyLabelOption="fontFunction" latin:styleName="switchKoreanKeyStyle" />
+	<key-style latin:code="@integer/key_switch_eng" latin:backgroundType="functional" latin:keyLabel="@string/label_english" latin:keyLabelOption="fontFunction" latin:styleName="switchEnglishKeyStyle" />
+	<key-style latin:code="@integer/key_switch_kor" latin:backgroundType="functional" latin:keyLabel="@string/label_korean" latin:keyLabelOption="fontFunction" latin:styleName="switchKoreanLandscapeFloatingKeyStyle" />
+	<key-style latin:code="@integer/key_switch_eng" latin:backgroundType="functional" latin:keyLabel="@string/label_english" latin:keyLabelOption="fontFunction" latin:styleName="switchEnglishLandscapeFloatingKeyStyle" />
+	<key-style latin:code="@integer/key_prev_symbol" latin:moreKeys="\@icon/3|@integer/key_first_page" latin:backgroundType="functional" latin:keyIcon="iconPrevPageKey" latin:keyIconHint="iconHintFirstPageKey" latin:styleName="symbolPrevKeyStyle" />
+	<key-style latin:code="@integer/key_next_symbol" latin:backgroundType="functional" latin:keyIcon="iconNextPageKey" latin:styleName="symbolNextKeyStyle" />
+	<key-style latin:code="0" latin:backgroundType="normalB" latin:keyLabel="Page Num" latin:keyLabelOption="fontFunction" latin:styleName="symbolPageViewStyle" />
+	<key-style latin:code="@integer/key_switch_emoticon" latin:backgroundType="functional" latin:keyLabel="@string/label_switch_emoticon" latin:keyLabelOption="fontFunction" latin:styleName="switchEmoticonKeyStyle" />
+	<key-style latin:code="@integer/key_switch_alpha_symbol" latin:backgroundType="functional" latin:keyIcon="iconNormalSymbolsKey" latin:styleName="switchNumSymKeyStyle" />
+	<switch>
+		<case latin:qwertyLongInput="false">
+			<key-style latin:backgroundType="normal" latin:styleName="lpNum1KeyStyle" />
+			<key-style latin:backgroundType="normal" latin:styleName="lpNum2KeyStyle" />
+			<key-style latin:backgroundType="normal" latin:styleName="lpNum3KeyStyle" />
+			<key-style latin:backgroundType="normal" latin:styleName="lpNum4KeyStyle" />
+			<key-style latin:backgroundType="normal" latin:styleName="lpNum5KeyStyle" />
+			<key-style latin:backgroundType="normal" latin:styleName="lpNum6KeyStyle" />
+			<key-style latin:backgroundType="normal" latin:styleName="lpNum7KeyStyle" />
+			<key-style latin:backgroundType="normal" latin:styleName="lpNum8KeyStyle" />
+			<key-style latin:backgroundType="normal" latin:styleName="lpNum9KeyStyle" />
+			<key-style latin:backgroundType="normal" latin:styleName="lpNum0KeyStyle" />
+		</case>
+		<default>
+			<key-style latin:moreKeys="@string/more_keys_for_w2" latin:backgroundType="normal" latin:keyHintLabel="@string/more_keys_for_w2" latin:styleName="lpNum1KeyStyle" />
+			<key-style latin:moreKeys="@string/more_keys_for_q2" latin:backgroundType="normal" latin:keyHintLabel="@string/more_keys_for_q2" latin:styleName="lpNum2KeyStyle" />
+			<key-style latin:moreKeys="@string/more_keys_for_g" latin:backgroundType="normal" latin:keyHintLabel="@string/more_keys_for_g" latin:styleName="lpNum3KeyStyle" />
+			<key-style latin:moreKeys="@string/more_keys_for_d" latin:backgroundType="normal" latin:keyHintLabel="@string/more_keys_for_d" latin:styleName="lpNum4KeyStyle" />
+			<key-style latin:moreKeys="@string/more_keys_for_e2" latin:backgroundType="normal" latin:keyHintLabel="@string/more_keys_for_e2" latin:styleName="lpNum5KeyStyle" />
+			<key-style latin:moreKeys="@string/more_keys_for_n" latin:backgroundType="normal" latin:keyHintLabel="@string/more_keys_for_n" latin:styleName="lpNum6KeyStyle" />
+			<key-style latin:moreKeys="@string/more_keys_for_t2" latin:backgroundType="normal" latin:keyHintLabel="@string/more_keys_for_t2" latin:styleName="lpNum7KeyStyle" />
+			<key-style latin:moreKeys="@string/more_keys_for_y2" latin:backgroundType="normal" latin:keyHintLabel="@string/more_keys_for_y2" latin:styleName="lpNum8KeyStyle" />
+			<key-style latin:moreKeys="@string/more_keys_for_c" latin:backgroundType="normal" latin:keyHintLabel="@string/more_keys_for_c" latin:styleName="lpNum9KeyStyle" />
+			<key-style latin:moreKeys="@string/more_keys_for_u2" latin:backgroundType="normal" latin:keyHintLabel="@string/more_keys_for_u2" latin:styleName="lpNum0KeyStyle" />
+		</default>
+	</switch>
+	<switch>
+		<case latin:qwertyLongInput="false">
+			<key-style latin:backgroundType="normal" latin:styleName="lpQwertyNum1KeyStyle" />
+			<key-style latin:backgroundType="normal" latin:styleName="lpQwertyNum2KeyStyle" />
+			<key-style latin:backgroundType="normal" latin:styleName="lpQwertyNum3KeyStyle" />
+			<key-style latin:backgroundType="normal" latin:styleName="lpQwertyNum4KeyStyle" />
+			<key-style latin:backgroundType="normal" latin:styleName="lpQwertyNum5KeyStyle" />
+			<key-style latin:backgroundType="normal" latin:styleName="lpQwertyNum6KeyStyle" />
+			<key-style latin:backgroundType="normal" latin:styleName="lpQwertyNum7KeyStyle" />
+			<key-style latin:backgroundType="normal" latin:styleName="lpQwertyNum8KeyStyle" />
+			<key-style latin:backgroundType="normal" latin:styleName="lpQwertyNum9KeyStyle" />
+			<key-style latin:backgroundType="normal" latin:styleName="lpQwertyNum0KeyStyle" />
+			<key-style latin:backgroundType="normal" latin:styleName="lpSym01KeyStyle" />
+			<key-style latin:backgroundType="normal" latin:styleName="lpSym02KeyStyle" />
+			<key-style latin:backgroundType="normal" latin:styleName="lpSym03KeyStyle" />
+			<key-style latin:backgroundType="normal" latin:styleName="lpSym04KeyStyle" />
+			<key-style latin:backgroundType="normal" latin:styleName="lpSym05KeyStyle" />
+			<key-style latin:backgroundType="normal" latin:styleName="lpSym06KeyStyle" />
+			<key-style latin:backgroundType="normal" latin:styleName="lpSym07KeyStyle" />
+			<key-style latin:backgroundType="normal" latin:styleName="lpSym08KeyStyle" />
+			<key-style latin:backgroundType="normal" latin:styleName="lpSym09KeyStyle" />
+			<key-style latin:backgroundType="normal" latin:styleName="lpSym10KeyStyle" />
+			<key-style latin:backgroundType="normal" latin:styleName="lpSym11KeyStyle" />
+			<key-style latin:backgroundType="normal" latin:styleName="lpSym12KeyStyle" />
+			<key-style latin:backgroundType="normal" latin:styleName="lpSym13KeyStyle" />
+			<key-style latin:backgroundType="normal" latin:styleName="lpSym14KeyStyle" />
+			<key-style latin:backgroundType="normal" latin:styleName="lpSym15KeyStyle" />
+			<key-style latin:backgroundType="normal" latin:styleName="lpSym16KeyStyle" />
+		</case>
+		<default>
+			<key-style latin:moreKeys="@string/more_keys_for_q2" latin:backgroundType="normal" latin:keyHintLabel="@string/more_keys_for_q2" latin:styleName="lpQwertyNum1KeyStyle" />
+			<key-style latin:moreKeys="@string/more_keys_for_w2" latin:backgroundType="normal" latin:keyHintLabel="@string/more_keys_for_w2" latin:styleName="lpQwertyNum2KeyStyle" />
+			<key-style latin:moreKeys="@string/more_keys_for_e2" latin:backgroundType="normal" latin:keyHintLabel="@string/more_keys_for_e2" latin:styleName="lpQwertyNum3KeyStyle" />
+			<key-style latin:moreKeys="@string/more_keys_for_r2" latin:backgroundType="normal" latin:keyHintLabel="@string/more_keys_for_r2" latin:styleName="lpQwertyNum4KeyStyle" />
+			<key-style latin:moreKeys="@string/more_keys_for_t2" latin:backgroundType="normal" latin:keyHintLabel="@string/more_keys_for_t2" latin:styleName="lpQwertyNum5KeyStyle" />
+			<key-style latin:moreKeys="@string/more_keys_for_y2" latin:backgroundType="normal" latin:keyHintLabel="@string/more_keys_for_y2" latin:styleName="lpQwertyNum6KeyStyle" />
+			<key-style latin:moreKeys="@string/more_keys_for_u2" latin:backgroundType="normal" latin:keyHintLabel="@string/more_keys_for_u2" latin:styleName="lpQwertyNum7KeyStyle" />
+			<key-style latin:moreKeys="@string/more_keys_for_i2" latin:backgroundType="normal" latin:keyHintLabel="@string/more_keys_for_i2" latin:styleName="lpQwertyNum8KeyStyle" />
+			<key-style latin:moreKeys="@string/more_keys_for_o2" latin:backgroundType="normal" latin:keyHintLabel="@string/more_keys_for_o2" latin:styleName="lpQwertyNum9KeyStyle" />
+			<key-style latin:moreKeys="@string/more_keys_for_p2" latin:backgroundType="normal" latin:keyHintLabel="@string/more_keys_for_p2" latin:styleName="lpQwertyNum0KeyStyle" />
+			<key-style latin:moreKeys="@string/more_keys_for_a" latin:backgroundType="normal" latin:keyHintLabel="@string/more_keys_for_a" latin:styleName="lpSym01KeyStyle" />
+			<key-style latin:moreKeys="@string/more_keys_for_s" latin:backgroundType="normal" latin:keyHintLabel="@string/more_keys_for_s" latin:styleName="lpSym02KeyStyle" />
+			<key-style latin:moreKeys="@string/more_keys_for_d" latin:backgroundType="normal" latin:keyHintLabel="@string/more_keys_for_d" latin:styleName="lpSym03KeyStyle" />
+			<key-style latin:moreKeys="@string/more_keys_for_f" latin:backgroundType="normal" latin:keyHintLabel="@string/more_keys_for_f" latin:styleName="lpSym04KeyStyle" />
+			<key-style latin:moreKeys="@string/more_keys_for_g" latin:backgroundType="normal" latin:keyHintLabel="@string/more_keys_for_g" latin:styleName="lpSym05KeyStyle" />
+			<key-style latin:moreKeys="@string/more_keys_for_h" latin:backgroundType="normal" latin:keyHintLabel="@string/more_keys_for_h" latin:styleName="lpSym06KeyStyle" />
+			<key-style latin:moreKeys="@string/more_keys_for_j" latin:backgroundType="normal" latin:keyHintLabel="@string/more_keys_for_j" latin:styleName="lpSym07KeyStyle" />
+			<key-style latin:moreKeys="@string/more_keys_for_k" latin:backgroundType="normal" latin:keyHintLabel="@string/more_keys_for_k" latin:styleName="lpSym08KeyStyle" />
+			<key-style latin:moreKeys="@string/more_keys_for_l" latin:backgroundType="normal" latin:keyHintLabel="@string/more_keys_for_l" latin:styleName="lpSym09KeyStyle" />
+			<key-style latin:moreKeys="@string/more_keys_for_z" latin:backgroundType="normal" latin:keyHintLabel="@string/more_keys_for_z" latin:styleName="lpSym10KeyStyle" />
+			<key-style latin:moreKeys="@string/more_keys_for_x" latin:backgroundType="normal" latin:keyHintLabel="@string/more_keys_for_x" latin:styleName="lpSym11KeyStyle" />
+			<key-style latin:moreKeys="@string/more_keys_for_c" latin:backgroundType="normal" latin:keyHintLabel="@string/more_keys_for_c" latin:styleName="lpSym12KeyStyle" />
+			<key-style latin:moreKeys="@string/more_keys_for_v" latin:backgroundType="normal" latin:keyHintLabel="@string/more_keys_for_v" latin:styleName="lpSym13KeyStyle" />
+			<key-style latin:moreKeys="@string/more_keys_for_b" latin:backgroundType="normal" latin:keyHintLabel="@string/more_keys_for_b" latin:styleName="lpSym14KeyStyle" />
+			<key-style latin:moreKeys="@string/more_keys_for_n" latin:backgroundType="normal" latin:keyHintLabel="@string/more_keys_for_n" latin:styleName="lpSym15KeyStyle" />
+			<key-style latin:moreKeys="@string/more_keys_for_m" latin:backgroundType="normal" latin:keyHintLabel="@string/more_keys_for_m" latin:styleName="lpSym16KeyStyle" />
+		</default>
+	</switch>
+	<switch>
+		<case latin:qwertyLongInput="false">
+			<key-style latin:backgroundType="normal" latin:styleName="lpSym17KeyStyle" />
+			<key-style latin:backgroundType="normal" latin:styleName="lpSym18KeyStyle" />
+		</case>
+		<default>
+			<key-style latin:moreKeys="@string/more_keys_minus" latin:backgroundType="normal" latin:keyHintLabel="@string/more_keys_minus" latin:styleName="lpSym17KeyStyle" />
+			<key-style latin:moreKeys="+" latin:backgroundType="normal" latin:keyHintLabel="+" latin:styleName="lpSym18KeyStyle" />
+		</default>
+	</switch>
+	<key-style latin:backgroundType="normal" latin:keyLabelOption="fontNormal" latin:styleName="emoticonKeyStyle" />
+	<switch>
+		<case latin:clobberSettingsKey="true">
+			<key-style latin:code="@integer/key_switch_kor_eng" latin:backgroundType="functional" latin:keyLabel="@string/label_korean" latin:keyLabelShifted="@string/label_english" latin:keyLabelOption="fontFunction" latin:styleName="switchKorEngKeyStyle" />
+			<key-style latin:code="@integer/key_switch_kor_eng" latin:backgroundType="functional" latin:keyLabel="@string/label_korean" latin:keyLabelShifted="@string/label_english" latin:keyLabelOption="fontFunction" latin:styleName="switchKorEngPortraitFloatingKeyStyle" />
+		</case>
+		<default>
+			<key-style latin:code="@integer/key_switch_kor_eng" latin:moreKeys="settings" latin:backgroundType="functional" latin:keyLabel="@string/label_korean" latin:keyLabelShifted="@string/label_english" latin:keyLabelOption="fontFunction" latin:keyIconHint="iconHintSettingKey" latin:styleName="switchKorEngKeyStyle" />
+			<key-style latin:code="@integer/key_switch_kor_eng" latin:moreKeys="settings" latin:backgroundType="functional" latin:keyLabel="@string/label_korean" latin:keyLabelShifted="@string/label_english" latin:keyLabelOption="fontFunction" latin:keyIconHint="iconHintFloatingSettingKey" latin:styleName="switchKorEngPortraitFloatingKeyStyle" />
+		</default>
+	</switch>
+	<key-style latin:code="@integer/key_switch_eng_kor" latin:backgroundType="functional" latin:keyLabel="@string/label_english" latin:keyLabelShifted="@string/label_korean" latin:keyLabelOption="fontFunction" latin:styleName="switchEngKorKeyStyle" />
+	<key-style latin:code="@integer/key_switch_eng_kor" latin:backgroundType="functional" latin:keyLabel="@string/label_english" latin:keyLabelShifted="@string/label_korean" latin:keyLabelOption="fontFunction" latin:styleName="switchEngKorKeyFloatingLandscapeStyle" />
+	<key-style latin:code="@integer/key_delete" latin:backgroundType="action" latin:isRepeatable="true" latin:keyIcon="iconDeleteKey" latin:styleName="browserDeleteKeyStyle" />
+	<switch>
+		<case latin:qwertyLongInput="false">
+			<key-style latin:backgroundType="normal" latin:styleName="lpQwerty2Num1KeyStyle" />
+			<key-style latin:backgroundType="normal" latin:styleName="lpQwerty2Num2KeyStyle" />
+			<key-style latin:backgroundType="normal" latin:styleName="lpQwerty2Num3KeyStyle" />
+			<key-style latin:backgroundType="normal" latin:styleName="lpQwerty2Num4KeyStyle" />
+			<key-style latin:backgroundType="normal" latin:styleName="lpQwerty2Num5KeyStyle" />
+			<key-style latin:backgroundType="normal" latin:styleName="lpQwerty2Num6KeyStyle" />
+			<key-style latin:backgroundType="normal" latin:styleName="lpQwerty2Num7KeyStyle" />
+			<key-style latin:backgroundType="normal" latin:styleName="lpQwerty2Num8KeyStyle" />
+			<key-style latin:backgroundType="normal" latin:styleName="lpQwerty2Num9KeyStyle" />
+			<key-style latin:backgroundType="normal" latin:styleName="lpQwerty2Num0KeyStyle" />
+		</case>
+		<default>
+			<key-style latin:moreKeys="@string/more_keys_for_w2" latin:backgroundType="normal" latin:keyHintLabel="@string/more_keys_for_w2" latin:styleName="lpQwerty2Num1KeyStyle" />
+			<key-style latin:moreKeys="@string/more_keys_for_q2" latin:backgroundType="normal" latin:keyHintLabel="@string/more_keys_for_q2" latin:styleName="lpQwerty2Num2KeyStyle" />
+			<key-style latin:moreKeys="@string/more_keys_for_g" latin:backgroundType="normal" latin:keyHintLabel="@string/more_keys_for_g" latin:styleName="lpQwerty2Num3KeyStyle" />
+			<key-style latin:moreKeys="@string/more_keys_for_r2" latin:backgroundType="normal" latin:keyHintLabel="@string/more_keys_for_r2" latin:styleName="lpQwerty2Num4KeyStyle" />
+			<key-style latin:moreKeys="@string/more_keys_for_t2" latin:backgroundType="normal" latin:keyHintLabel="@string/more_keys_for_t2" latin:styleName="lpQwerty2Num5KeyStyle" />
+			<key-style latin:moreKeys="@string/more_keys_for_y2" latin:backgroundType="normal" latin:keyHintLabel="@string/more_keys_for_y2" latin:styleName="lpQwerty2Num6KeyStyle" />
+			<key-style latin:moreKeys="@string/more_keys_for_n" latin:backgroundType="normal" latin:keyHintLabel="@string/more_keys_for_n" latin:styleName="lpQwerty2Num7KeyStyle" />
+			<key-style latin:moreKeys="@string/more_keys_for_l" latin:backgroundType="normal" latin:keyHintLabel="@string/more_keys_for_l" latin:styleName="lpQwerty2Num8KeyStyle" />
+			<key-style latin:moreKeys="@string/more_keys_for_e2" latin:backgroundType="normal" latin:keyHintLabel="@string/more_keys_for_e2" latin:styleName="lpQwerty2Num9KeyStyle" />
+			<key-style latin:moreKeys="@string/more_keys_for_c" latin:backgroundType="normal" latin:keyHintLabel="@string/more_keys_for_c" latin:styleName="lpQwerty2Num0KeyStyle" />
+		</default>
+	</switch>
+	<key-style latin:code="@integer/key_emoji_recents" latin:backgroundType="sticky" latin:keyIcon="iconEmojiRecentsKey" latin:styleName="switchEmojiRecentsKeyStyle" />
+	<key-style latin:code="@integer/key_emoji_people" latin:backgroundType="sticky" latin:keyIcon="iconEmojiPeopleKey" latin:styleName="switchEmojiPeopleKeyStyle" />
+	<key-style latin:code="@integer/key_emoji_objects" latin:backgroundType="sticky" latin:keyIcon="iconEmojiObjectsKey" latin:styleName="switchEmojiObjectsKeyStyle" />
+	<key-style latin:code="@integer/key_emoji_nature" latin:backgroundType="sticky" latin:keyIcon="iconEmojiNatureKey" latin:styleName="switchEmojiNatureKeyStyle" />
+	<key-style latin:code="@integer/key_emoji_places" latin:backgroundType="sticky" latin:keyIcon="iconEmojiPlacesKey" latin:styleName="switchEmojiPlacesKeyStyle" />
+	<key-style latin:code="@integer/key_emoji_symbols" latin:backgroundType="sticky" latin:keyIcon="iconEmojiSymbolsKey" latin:styleName="switchEmojiSymbolsKeyStyle" />
+	<key-style latin:code="@integer/key_emoji_emoticons" latin:backgroundType="sticky" latin:keyIcon="iconEmojiEmoticonsKey" latin:styleName="switchEmojiEmoticonKeyStyle" />
+</merge>

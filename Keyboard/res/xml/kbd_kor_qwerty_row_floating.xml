@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<merge xmlns:latin="http://schemas.android.com/apk/res/com.pantech.inputmethod.skyime">
+	<Row latin:keyWidth="@fraction/key_width_qwerty">
+		<Key latin:code="@integer/key_kor_pieup" latin:keyLabel="ㅂ" latin:keyStyle="lpQwertyNum1KeyStyle" />
+		<Key latin:code="@integer/key_kor_cieuc" latin:keyLabel="ㅈ" latin:keyStyle="lpQwertyNum2KeyStyle" />
+		<Key latin:code="@integer/key_kor_tikeut" latin:keyLabel="ㄷ" latin:keyStyle="lpQwertyNum3KeyStyle" />
+		<Key latin:code="@integer/key_kor_kiyeok" latin:keyLabel="ㄱ" latin:keyStyle="lpQwertyNum4KeyStyle" />
+		<Key latin:code="@integer/key_kor_sios" latin:keyLabel="ㅅ" latin:keyStyle="lpQwertyNum5KeyStyle" />
+		<Key latin:code="@integer/key_kor_yo" latin:keyLabel="ㅛ" latin:keyStyle="lpQwertyNum6KeyStyle" />
+		<Key latin:code="@integer/key_kor_yeo" latin:keyLabel="ㅕ" latin:keyStyle="lpQwertyNum7KeyStyle" />
+		<Key latin:code="@integer/key_kor_ya" latin:keyLabel="ㅑ" latin:keyStyle="lpQwertyNum8KeyStyle" />
+		<Key latin:code="@integer/key_kor_ae" latin:keyLabel="ㅐ" latin:keyStyle="lpQwertyNum9KeyStyle" />
+		<Key latin:code="@integer/key_kor_e" latin:keyLabel="ㅔ" latin:keyStyle="lpQwertyNum0KeyStyle" />
+	</Row>
+	<Row latin:keyWidth="@fraction/key_width_qwerty">
+		<Key latin:code="@integer/key_kor_mieum" latin:keyLabel="ㅁ" latin:keyStyle="lpSym01KeyStyle" latin:keyXPos="@fraction/key_xpos_qwerty_row2" />
+		<Key latin:code="@integer/key_kor_nieun" latin:keyLabel="ㄴ" latin:keyStyle="lpSym02KeyStyle" />
+		<Key latin:code="@integer/key_kor_ieung" latin:keyLabel="ㅇ" latin:keyStyle="lpSym03KeyStyle" />
+		<Key latin:code="@integer/key_kor_rieul" latin:keyLabel="ㄹ" latin:keyStyle="lpSym04KeyStyle" />
+		<Key latin:code="@integer/key_kor_hieuh" latin:keyLabel="ㅎ" latin:keyStyle="lpSym05KeyStyle" />
+		<Key latin:code="@integer/key_kor_o" latin:keyLabel="ㅗ" latin:keyStyle="lpSym06KeyStyle" />
+		<Key latin:code="@integer/key_kor_eo" latin:keyLabel="ㅓ" latin:keyStyle="lpSym07KeyStyle" />
+		<Key latin:code="@integer/key_kor_a" latin:keyLabel="ㅏ" latin:keyStyle="lpSym08KeyStyle" />
+		<Key latin:code="@integer/key_kor_i" latin:keyLabel="ㅣ" latin:keyStyle="lpSym09KeyStyle" />
+	</Row>
+	<Row latin:keyWidth="@fraction/key_width_qwerty">
+		<Key latin:keyStyle="shiftPortraitFloatingKeyStyle" latin:keyWidth="@fraction/key_width_shift_qwerty" />
+		<Key latin:code="@integer/key_kor_khieukh" latin:keyLabel="ㅋ" latin:keyStyle="lpSym10KeyStyle" />
+		<Key latin:code="@integer/key_kor_thieuth" latin:keyLabel="ㅌ" latin:keyStyle="lpSym11KeyStyle" />
+		<Key latin:code="@integer/key_kor_chieuch" latin:keyLabel="ㅊ" latin:keyStyle="lpSym12KeyStyle" />
+		<Key latin:code="@integer/key_kor_phieuph" latin:keyLabel="ㅍ" latin:keyStyle="lpSym13KeyStyle" />
+		<Key latin:code="@integer/key_kor_yu" latin:keyLabel="ㅠ" latin:keyStyle="lpSym14KeyStyle" />
+		<Key latin:code="@integer/key_kor_u" latin:keyLabel="ㅜ" latin:keyStyle="lpSym15KeyStyle" />
+		<Key latin:code="@integer/key_kor_eu" latin:keyLabel="ㅡ" latin:keyStyle="lpSym16KeyStyle" />
+		<Key latin:keyStyle="deletePortraitFloatingKeyStyle" latin:keyWidth="@fraction/key_width_delete_qwerty" />
+	</Row>
+</merge>

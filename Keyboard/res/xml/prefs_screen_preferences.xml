@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" android:title="@string/keypress_setting_key" android:key="keypress_setting_key">
+	<com.pantech.inputmethod.skyime.settings.SKYSoundListPreference android:entries="@array/sound_type_entries" android:title="@string/sound_type" android:key="sound_type" android:defaultValue="@string/sound_1" android:dialogTitle="@string/sound_type" android:entryValues="@array/sound_type_values" />
+	<SwitchPreference android:persistent="true" android:title="@string/vibrate_on_keypress" android:key="vibrate_on" android:defaultValue="@bool/config_default_vibration_enabled" />
+	<SwitchPreference android:persistent="true" android:title="@string/prefs_qwerty_long_input" android:key="show_qwerty_long_input" android:summary="@string/prefs_qwerty_long_input_summary" android:defaultValue="@bool/config_default_show_qwerty_long_input" />
+	<SwitchPreference android:persistent="true" android:title="@string/popup_on_keypress" android:key="popup_on" android:defaultValue="@bool/config_default_popup_preview" />
+	<SwitchPreference android:persistent="true" android:title="@string/prefs_double_spaces_turn_into_period" android:key="double_spaces_turn_into_period" android:summary="@string/prefs_double_spaces_turn_into_period_summary" android:defaultValue="@bool/config_default_double_spaces_turn_into_period" />
+	<SwitchPreference android:persistent="true" android:title="@string/prefs_default_qwerty_doubletap" android:key="kor_qwerty_doubletap" android:summary="@string/prefs_default_qwerty_doubletap_summary" android:defaultValue="@bool/config_default_qwerty_doubletap" />
+</PreferenceScreen>

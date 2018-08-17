@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Keyboard xmlns:latin="http://schemas.android.com/apk/res/com.pantech.inputmethod.skyime" latin:keyboardTopPadding="@dimen/floating_qwerty_top_padding" latin:rowHeight="@dimen/floating_qwerty_keyheight" latin:keyWidth="25.0%p">
+	<include latin:keyboardLayout="@xml/kbd_key_styles" />
+	<Row latin:rowHeight="@dimen/top_num_keyheight">
+		<Key latin:backgroundType="emojiTab" latin:keyStyle="switchNumSymKeyStyle" />
+		<Key latin:backgroundType="emojiTab" latin:keyStyle="switchEmojiRecentsKeyStyle" />
+		<Key latin:backgroundType="emojiTab" latin:keyStyle="switchEmojiPeopleKeyStyle" />
+		<Key latin:backgroundType="emojiTab" latin:keyStyle="switchEmojiObjectsKeyStyle" />
+	</Row>
+	<Row>
+		<Key latin:code="@integer/key_symbol_01" latin:backgroundType="emojiNormal" />
+		<Key latin:code="@integer/key_symbol_02" latin:backgroundType="emojiNormal" />
+		<Key latin:code="@integer/key_symbol_03" latin:backgroundType="emojiNormal" />
+		<Key latin:code="@integer/key_symbol_04" latin:backgroundType="emojiNormal" />
+	</Row>
+	<Row>
+		<Key latin:code="@integer/key_symbol_09" latin:backgroundType="emojiNormal" />
+		<Key latin:code="@integer/key_symbol_10" latin:backgroundType="emojiNormal" />
+		<Key latin:code="@integer/key_symbol_11" latin:backgroundType="emojiNormal" />
+		<Key latin:code="@integer/key_symbol_12" latin:backgroundType="emojiNormal" />
+	</Row>
+	<Row>
+		<Key latin:keyLabel="1/5" latin:keyStyle="symbolPageViewStyle" />
+		<Key latin:code="@integer/key_symbol_17" latin:backgroundType="emojiNormal" />
+		<Key latin:code="@integer/key_symbol_18" latin:backgroundType="emojiNormal" />
+		<Key latin:code="@integer/key_symbol_19" latin:backgroundType="emojiNormal" />
+	</Row>
+	<Row latin:rowHeight="@dimen/floating_common_keyheight">
+		<Key latin:keyStyle="switchKorEngKeyStyle" />
+		<Key latin:keyStyle="symbolPrevKeyStyle" latin:keyWidth="50.0%p" />
+		<Key latin:keyStyle="spaceKeyStyle" />
+	</Row>
+</Keyboard>

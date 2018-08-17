@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="cover_loading_message">Please wait while loading.</string>
+<string name="cover_loading_title">Loading...</string>
+<string name="date_picker_dialog_title">Set Date</string>
+<string name="date_time_done">Done</string>
+<string name="loding">Loading...</string>
+<string name="lunar">Lunar</string>
+<string name="popup_cancel">Cancel</string>
+<string name="popup_close">Close</string>
+<string name="popup_minimize">Minimize</string>
+<string name="popup_no">No</string>
+<string name="popup_ok">OK</string>
+<string name="popup_play">Play</string>
+<string name="popup_retrylater">"Retry
+Later"</string>
+<string name="popup_yes">Yes</string>
+<string name="saving">Saving...</string>
+<string name="solar">Solar</string>
+<string name="time_picker_dialog_title">Set Time</string>
+<string name="time_picker_separator">:</string>
+<string name="hello">Hello World, Pantech_UI!</string>
+<string name="app_name">SkyComponent Resource</string>
+<string name="tabtitle">tab title</string>
+</resources>

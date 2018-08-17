@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<com.pantech.widget.SkyListViewBaseBottom xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="left" android:id="@id/indexed_list_bottom" android:layout_width="fill_parent" android:layout_height="7.0dip" android:minHeight="7.0dip" />

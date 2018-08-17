@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<merge xmlns:latin="http://schemas.android.com/apk/res/com.pantech.inputmethod.skyime">
+	<switch>
+		<case latin:hasSettingsKey="true">
+			<Key latin:keyStyle="settingsKeyStyle" latin:keyWidth="10.000002%p" />
+		</case>
+		<case latin:navigateAction="true">
+			<Key latin:keyStyle="tabKeyStyle" latin:keyWidth="10.000002%p" />
+		</case>
+		<default />
+	</switch>
+</merge>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Keyboard xmlns:latin="http://schemas.android.com/apk/res/com.pantech.inputmethod.skyime" latin:rowHeight="@dimen/qwerty_keyheight" latin:keyWidth="@dimen/key_width_emoticon_key_split">
+	<include latin:keyboardLayout="@xml/kbd_key_styles" />
+	<include latin:keyboardLayout="@xml/kbd_top_symbol_emoji_row_split" />
+	<Row>
+		<Key latin:code="@integer/key_symbol_01" latin:backgroundType="emojiNormal" />
+		<Key latin:code="@integer/key_symbol_02" latin:backgroundType="emojiNormal" />
+		<Key latin:code="@integer/key_symbol_03" latin:backgroundType="emojiNormal" />
+		<Key latin:code="@integer/key_symbol_04" latin:backgroundType="emojiNormal" />
+		<Key latin:code="@integer/key_symbol_05" latin:backgroundType="emojiNormal" latin:keyXPos="@dimen/key_xpos_split_emoticon" />
+		<Key latin:code="@integer/key_symbol_06" latin:backgroundType="emojiNormal" />
+		<Key latin:code="@integer/key_symbol_07" latin:backgroundType="emojiNormal" />
+		<Key latin:code="@integer/key_symbol_08" latin:backgroundType="emojiNormal" />
+	</Row>
+	<Row>
+		<Key latin:code="@integer/key_symbol_09" latin:backgroundType="emojiNormal" />
+		<Key latin:code="@integer/key_symbol_10" latin:backgroundType="emojiNormal" />
+		<Key latin:code="@integer/key_symbol_11" latin:backgroundType="emojiNormal" />
+		<Key latin:code="@integer/key_symbol_12" latin:backgroundType="emojiNormal" />
+		<Key latin:code="@integer/key_symbol_13" latin:backgroundType="emojiNormal" latin:keyXPos="@dimen/key_xpos_split_emoticon" />
+		<Key latin:code="@integer/key_symbol_14" latin:backgroundType="emojiNormal" />
+		<Key latin:code="@integer/key_symbol_15" latin:backgroundType="emojiNormal" />
+		<Key latin:code="@integer/key_symbol_16" latin:backgroundType="emojiNormal" />
+	</Row>
+	<Row>
+		<Key latin:keyLabel="1/5" latin:keyStyle="symbolPageViewStyle" />
+		<Key latin:code="@integer/key_symbol_17" latin:backgroundType="emojiNormal" />
+		<Key latin:code="@integer/key_symbol_18" latin:backgroundType="emojiNormal" />
+		<Key latin:code="@integer/key_symbol_19" latin:backgroundType="emojiNormal" />
+		<Key latin:code="@integer/key_symbol_20" latin:backgroundType="emojiNormal" latin:keyXPos="@dimen/key_xpos_split_emoticon" />
+		<Key latin:code="@integer/key_symbol_21" latin:backgroundType="emojiNormal" />
+		<Key latin:code="@integer/key_symbol_22" latin:backgroundType="emojiNormal" />
+		<Key latin:keyStyle="deleteKeyStyle" />
+	</Row>
+	<include latin:keyboardLayout="@xml/kbd_emoji_bottom" />
+</Keyboard>

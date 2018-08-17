@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Keyboard xmlns:latin="http://schemas.android.com/apk/res/com.pantech.inputmethod.skyime" latin:minKeyboardHeight="@dimen/keyboardHeight" latin:keyboardTopPadding="@dimen/qwerty_top_padding" latin:rowHeight="bNormal">
+	<include latin:keyboardLayout="@xml/kbd_key_styles" />
+	<include latin:keyboardLayout="@xml/kbd_top_number_row" />
+	<Row latin:keyWidth="14.279997%p">
+		<Key latin:code="@integer/key_kor_pieup" latin:keyLabel="ㅂ" latin:keyStyle="lpSym11KeyStyle" latin:keyXPos="0.0%p" />
+		<Key latin:code="@integer/key_kor_cieuc" latin:keyLabel="ㅈ" latin:keyStyle="lpSym04KeyStyle" latin:keyWidth="14.310002%p" />
+		<Key latin:code="@integer/key_kor_tikeut" latin:keyLabel="ㄷ" latin:keyStyle="lpQwerty2Num1KeyStyle" latin:keyWidth="14.359999%p" />
+		<Key latin:code="@integer/key_kor_kiyeok" latin:keyLabel="ㄱ" latin:keyStyle="lpQwerty2Num2KeyStyle" latin:keyWidth="14.310002%p" />
+		<Key latin:code="@integer/key_kor_sios" latin:keyLabel="ㅅ" latin:keyStyle="lpQwerty2Num3KeyStyle" latin:keyWidth="14.359999%p" />
+		<Key latin:code="@integer/key_kor_a" latin:keyLabel="ㅏ" latin:keyStyle="lpSym02KeyStyle" latin:keyWidth="14.310002%p" />
+		<Key latin:code="@integer/key_kor_i" latin:keyLabel="ㅣ" latin:keyStyle="lpSym06KeyStyle" />
+	</Row>
+	<Row latin:keyWidth="14.279997%p">
+		<Key latin:code="@integer/key_kor_mieum" latin:keyLabel="ㅁ" latin:keyStyle="lpSym01KeyStyle" latin:keyXPos="0.0%p" />
+		<Key latin:code="@integer/key_kor_nieun" latin:keyLabel="ㄴ" latin:keyStyle="lpSym10KeyStyle" latin:keyWidth="14.310002%p" />
+		<Key latin:code="@integer/key_kor_ieung" latin:keyLabel="ㅇ" latin:keyStyle="lpQwerty2Num4KeyStyle" latin:keyWidth="14.359999%p" />
+		<Key latin:code="@integer/key_kor_rieul" latin:keyLabel="ㄹ" latin:keyStyle="lpQwerty2Num5KeyStyle" latin:keyWidth="14.310002%p" />
+		<Key latin:code="@integer/key_kor_hieuh" latin:keyLabel="ㅎ" latin:keyStyle="lpQwerty2Num6KeyStyle" latin:keyWidth="14.359999%p" />
+		<Key latin:code="@integer/key_kor_o" latin:keyLabel="ㅗ" latin:keyStyle="lpSym14KeyStyle" latin:keyWidth="14.310002%p" />
+		<Key latin:code="@integer/key_kor_eo" latin:keyLabel="ㅓ" latin:keyStyle="lpSym03KeyStyle" />
+	</Row>
+	<Row latin:keyWidth="14.279997%p">
+		<Key latin:code="@integer/key_kor_khieukh" latin:keyLabel="ㅋ" latin:keyStyle="lpSym13KeyStyle" latin:keyXPos="0.0%p" />
+		<Key latin:code="@integer/key_kor_thieuth" latin:keyLabel="ㅌ" latin:keyStyle="lpSym16KeyStyle" latin:keyWidth="14.310002%p" />
+		<Key latin:code="@integer/key_kor_chieuch" latin:keyLabel="ㅊ" latin:keyStyle="lpQwerty2Num7KeyStyle" latin:keyWidth="14.359999%p" />
+		<Key latin:code="@integer/key_kor_phieuph" latin:keyLabel="ㅍ" latin:keyStyle="lpQwerty2Num8KeyStyle" latin:keyWidth="14.310002%p" />
+		<Key latin:code="@integer/key_kor_u" latin:keyLabel="ㅜ" latin:keyStyle="lpQwerty2Num9KeyStyle" latin:keyWidth="14.359999%p" />
+		<Key latin:code="@integer/key_kor_eu" latin:keyLabel="ㅡ" latin:keyStyle="lpQwerty2Num0KeyStyle" latin:keyWidth="14.310002%p" />
+		<Key latin:keyStyle="deleteKeyStyle" />
+	</Row>
+	<Row latin:rowHeight="common" latin:keyWidth="14.279997%p">
+		<Key latin:keyLabelOption="fontFunction" latin:keyStyle="moreSettings" />
+		<Key latin:keyStyle="switchEnglishKeyStyle" latin:keyWidth="14.310002%p" />
+		<Key latin:keyStyle="spaceKeyStyle" latin:keyWidth="42.97%p" />
+		<Key latin:keyStyle="morePeriod" latin:keyWidth="14.310002%p" />
+		<Key latin:keyStyle="returnKeyStyle" />
+	</Row>
+</Keyboard>

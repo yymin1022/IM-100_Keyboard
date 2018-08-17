@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<color name="colorChildText">#ffffffff</color>
+<color name="colorGroupNormalBackground">#ffffffff</color>
+<color name="colorGroupSepLine">#ffbebebe</color>
+<color name="colorGroupTouchBackground">#ffe65014</color>
+<color name="colorTextInfo">#ff78a0a0</color>
+<color name="colorTextItem">#ff000000</color>
+<color name="colorTextTouch">#ffffffff</color>
+<color name="colorWheelTextSelect">#ffe65014</color>
+<color name="colorWheelTextUnSelect">#ff78a0a0</color>
+<color name="indexedlist_white">#ffffffff</color>
+<color name="popuplist_item_selected">#ffe65014</color>
+<color name="spinner_layout_line">#ffb2b2b2</color>
+<color name="pt_skyedittext_nor">#8a000000</color>
+<color name="pt_skyedittext_active">#ff249af7</color>
+</resources>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Keyboard xmlns:latin="http://schemas.android.com/apk/res/com.pantech.inputmethod.skyime" latin:keyboardTopPadding="@dimen/floating_qwerty_top_padding" latin:rowHeight="@dimen/floating_qwerty_keyheight" latin:keyWidth="@dimen/key_width_split">
+	<include latin:keyboardLayout="@xml/kbd_key_styles" />
+	<Row latin:rowHeight="@dimen/top_num_keyheight">
+		<Key latin:backgroundType="topnumber" latin:keyLabel="1" />
+		<Key latin:backgroundType="topnumber" latin:keyLabel="2" />
+		<Key latin:backgroundType="topnumber" latin:keyLabel="3" />
+		<Key latin:backgroundType="topnumber" latin:keyLabel="4" />
+		<Key latin:backgroundType="topnumber" latin:keyLabel="5" />
+	</Row>
+	<Row>
+		<Key latin:code="@integer/key_eng_q" latin:keyLabel="q" latin:keyStyle="lpQwertyNum1KeyStyle" />
+		<Key latin:code="@integer/key_eng_w" latin:keyLabel="w" latin:keyStyle="lpQwertyNum2KeyStyle" />
+		<Key latin:code="@integer/key_eng_e" latin:keyLabel="e" latin:keyStyle="lpQwertyNum3KeyStyle" />
+		<Key latin:code="@integer/key_eng_r" latin:keyLabel="r" latin:keyStyle="lpQwertyNum4KeyStyle" />
+		<Key latin:code="@integer/key_eng_t" latin:keyLabel="t" latin:keyStyle="lpQwertyNum5KeyStyle" />
+	</Row>
+	<Row>
+		<Key latin:code="@integer/key_eng_a" latin:keyLabel="a" latin:keyStyle="lpSym01KeyStyle" latin:keyXPos="@dimen/key_xpos_split_row_2_1" />
+		<Key latin:code="@integer/key_eng_s" latin:keyLabel="s" latin:keyStyle="lpSym02KeyStyle" />
+		<Key latin:code="@integer/key_eng_d" latin:keyLabel="d" latin:keyStyle="lpSym03KeyStyle" />
+		<Key latin:code="@integer/key_eng_f" latin:keyLabel="f" latin:keyStyle="lpSym04KeyStyle" />
+		<Key latin:code="@integer/key_eng_g" latin:keyLabel="g" latin:keyStyle="lpSym05KeyStyle" />
+	</Row>
+	<Row>
+		<Key latin:keyStyle="shiftKeyStyle" latin:keyWidth="@dimen/key_width_split_shift_delete" />
+		<Key latin:code="@integer/key_eng_z" latin:keyLabel="z" latin:keyStyle="lpSym10KeyStyle" />
+		<Key latin:code="@integer/key_eng_x" latin:keyLabel="x" latin:keyStyle="lpSym11KeyStyle" />
+		<Key latin:code="@integer/key_eng_c" latin:keyLabel="c" latin:keyStyle="lpSym12KeyStyle" />
+		<Key latin:code="@integer/key_eng_v" latin:keyLabel="v" latin:keyStyle="lpSym13KeyStyle" />
+	</Row>
+	<Row latin:rowHeight="@dimen/qwerty_common_button_top_padding" />
+	<Row latin:rowHeight="@dimen/floating_common_keyheight" latin:keyWidth="@dimen/key_width_split_shift_delete">
+		<Key latin:keyStyle="moreSettings" />
+		<Key latin:keyStyle="switchKoreanLandscapeFloatingKeyStyle" />
+		<switch>
+			<case latin:mode="url">
+				<Key latin:keyStyle="dotComKeyStyle" />
+				<Key latin:keyStyle="spaceKeyStyle" latin:keyWidth="@dimen/key_width_split" />
+			</case>
+			<case latin:mode="email">
+				<Key latin:keyStyle="atMarkKeyStyle" />
+				<Key latin:keyStyle="spaceKeyStyle" latin:keyWidth="@dimen/key_width_split" />
+			</case>
+			<default>
+				<Key latin:keyStyle="spaceKeyStyle" latin:keyWidth="120.0dip" />
+			</default>
+		</switch>
+	</Row>
+</Keyboard>

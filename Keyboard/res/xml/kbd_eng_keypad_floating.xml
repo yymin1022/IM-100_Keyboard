@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Keyboard xmlns:latin="http://schemas.android.com/apk/res/com.pantech.inputmethod.skyime" latin:keyboardHeight="@dimen/floating_keyboard_height" latin:minKeyboardHeight="@dimen/floating_keyboard_height" latin:rowHeight="@dimen/floating_keypad_keyheight" latin:keyWidth="25.0%p">
+	<include latin:keyboardLayout="@xml/kbd_key_styles" />
+	<include latin:keyboardLayout="@xml/kbd_top_number_row_floating" />
+	<Row>
+		<Key latin:code="@integer/key_eng_keypad1" latin:keyLabel="qz" latin:keyStyle="lpNum1KeyStyle" />
+		<Key latin:code="@integer/key_eng_keypad2" latin:keyLabel="abc" latin:keyStyle="lpNum2KeyStyle" />
+		<Key latin:code="@integer/key_eng_keypad3" latin:keyLabel="def" latin:keyStyle="lpNum3KeyStyle" />
+		<switch>
+			<case latin:mode="url|email">
+				<Key latin:backgroundType="functional" latin:keyLabel="-" latin:keyWidth="12.5%p" />
+				<Key latin:backgroundType="functional" latin:keyLabel="_" latin:keyWidth="12.5%p" />
+			</case>
+			<default>
+				<Key latin:backgroundType="functional" latin:keyLabel="~" latin:keyWidth="12.5%p" />
+				<Key latin:backgroundType="functional" latin:keyLabel="^" latin:keyWidth="12.5%p" />
+			</default>
+		</switch>
+	</Row>
+	<Row>
+		<Key latin:code="@integer/key_eng_keypad4" latin:keyLabel="ghi" latin:keyStyle="lpNum4KeyStyle" />
+		<Key latin:code="@integer/key_eng_keypad5" latin:keyLabel="jkl" latin:keyStyle="lpNum5KeyStyle" />
+		<Key latin:code="@integer/key_eng_keypad6" latin:keyLabel="mno" latin:keyStyle="lpNum6KeyStyle" />
+		<switch>
+			<case latin:mode="url|email">
+				<Key latin:backgroundType="functional" latin:keyLabel="/" latin:keyWidth="12.5%p" />
+				<Key latin:backgroundType="functional" latin:keyLabel=":" latin:keyWidth="12.5%p" />
+			</case>
+			<default>
+				<Key latin:backgroundType="functional" latin:keyLabel="-" latin:keyWidth="12.5%p" />
+				<Key latin:backgroundType="functional" latin:keyLabel="," latin:keyWidth="12.5%p" />
+			</default>
+		</switch>
+	</Row>
+	<Row>
+		<Key latin:code="@integer/key_eng_keypad7" latin:keyLabel="prs" latin:keyStyle="lpNum7KeyStyle" />
+		<Key latin:code="@integer/key_eng_keypad8" latin:keyLabel="tuv" latin:keyStyle="lpNum8KeyStyle" />
+		<Key latin:code="@integer/key_eng_keypad9" latin:keyLabel="wxy" latin:keyStyle="lpNum9KeyStyle" />
+		<Key latin:keyStyle="shiftPortraitFloatingKeyStyle" latin:keyWidth="25.0%p" />
+	</Row>
+	<Row>
+		<Key latin:code="0x21" latin:keyLabel="!" latin:keyStyle="lpSym17KeyStyle" />
+		<Key latin:code="0x23" latin:keyLabel="\#" latin:keyStyle="lpNum0KeyStyle" />
+		<Key latin:code="0x3f" latin:keyLabel="\?" latin:keyStyle="lpSym18KeyStyle" />
+		<Key latin:keyStyle="deletePortraitFloatingKeyStyle" latin:keyWidth="@fraction/key_width_delete" />
+	</Row>
+	<include latin:keyboardLayout="@xml/kbd_common_eng_bottom_floating" />
+</Keyboard>

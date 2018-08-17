@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<merge xmlns:latin="http://schemas.android.com/apk/res/com.pantech.inputmethod.skyime">
+	<Row>
+		<Key latin:code="@integer/key_symbol_01" latin:keyStyle="emoticonKeyStyle" />
+		<Key latin:code="@integer/key_symbol_02" latin:keyStyle="emoticonKeyStyle" />
+		<Key latin:code="@integer/key_symbol_03" latin:keyStyle="emoticonKeyStyle" />
+		<Key latin:code="@integer/key_symbol_04" latin:keyStyle="emoticonKeyStyle" />
+		<Key latin:code="@integer/key_symbol_05" latin:keyStyle="emoticonKeyStyle" />
+		<Key latin:code="@integer/key_symbol_06" latin:keyStyle="emoticonKeyStyle" />
+		<Key latin:code="@integer/key_symbol_07" latin:keyStyle="emoticonKeyStyle" />
+		<Key latin:code="@integer/key_symbol_08" latin:keyStyle="emoticonKeyStyle" />
+	</Row>
+	<Row>
+		<Key latin:code="@integer/key_symbol_09" latin:keyStyle="emoticonKeyStyle" />
+		<Key latin:code="@integer/key_symbol_10" latin:keyStyle="emoticonKeyStyle" />
+		<Key latin:code="@integer/key_symbol_11" latin:keyStyle="emoticonKeyStyle" />
+		<Key latin:code="@integer/key_symbol_12" latin:keyStyle="emoticonKeyStyle" />
+		<Key latin:code="@integer/key_symbol_13" latin:keyStyle="emoticonKeyStyle" />
+		<Key latin:code="@integer/key_symbol_14" latin:keyStyle="emoticonKeyStyle" />
+		<Key latin:code="@integer/key_symbol_15" latin:keyStyle="emoticonKeyStyle" />
+		<Key latin:code="@integer/key_symbol_16" latin:keyStyle="emoticonKeyStyle" />
+	</Row>
+	<Row>
+		<Key latin:keyLabel="1/5" latin:keyStyle="symbolPageViewStyle" />
+		<Key latin:code="@integer/key_symbol_17" latin:keyStyle="emoticonKeyStyle" />
+		<Key latin:code="@integer/key_symbol_18" latin:keyStyle="emoticonKeyStyle" />
+		<Key latin:code="@integer/key_symbol_19" latin:keyStyle="emoticonKeyStyle" />
+		<Key latin:code="@integer/key_symbol_20" latin:keyStyle="emoticonKeyStyle" />
+		<Key latin:code="@integer/key_symbol_21" latin:keyStyle="emoticonKeyStyle" />
+		<Key latin:code="@integer/key_symbol_22" latin:keyStyle="emoticonKeyStyle" />
+		<Key latin:keyStyle="deleteKeyStyle" />
+	</Row>
+</merge>

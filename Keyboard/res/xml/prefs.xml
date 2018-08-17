@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" android:title="@string/skyime_settings" android:key="skyime_settings">
+	<PreferenceCategory android:title="@string/portrait_keyboard_category" android:key="portrait_keyboard_settings">
+		<PreferenceScreen android:title="@string/kor_keyboard_type" android:key="kor_keyboard_type_key" />
+		<PreferenceScreen android:title="@string/eng_keyboard_type" android:key="eng_keyboard_type_key" />
+	</PreferenceCategory>
+	<PreferenceCategory android:title="@string/ime_settings_kbd" android:key="ime_settings_kbd">
+		<PreferenceScreen android:title="@string/theme_type" android:key="theme_type" />
+		<SwitchPreference android:persistent="true" android:title="@string/auto_cap" android:key="auto_cap" android:defaultValue="true" />
+		<PreferenceScreen android:title="@string/keypress_setting_key" android:key="keypress_setting_key" />
+		<PreferenceScreen android:title="@string/custom_popup_key" android:key="custom_popup_key" />
+		<PreferenceScreen android:title="@string/keyboard_height_control" android:key="keyboard_height_control" />
+	</PreferenceCategory>
+	<PreferenceCategory android:title="@string/misc_category" android:key="misc_settings">
+		<SwitchPreference android:persistent="true" android:title="@string/prefs_usability_study_mode" android:key="usability_study_mode" android:defaultValue="false" />
+		<PreferenceScreen android:title="@string/advanced_settings" android:key="pref_advanced_settings" android:summary="@string/advanced_settings_summary">
+			<SwitchPreference android:persistent="true" android:title="@string/bigram_suggestion" android:key="next_word_suggestion" android:summary="@string/bigram_suggestion_summary" android:defaultValue="true" />
+		</PreferenceScreen>
+	</PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+	<LinearLayout android:orientation="vertical" android:paddingLeft="13.0dip" android:paddingTop="13.0dip" android:paddingRight="13.0dip" android:paddingBottom="13.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+		<include layout="@layout/style_preview" />
+	</LinearLayout>
+	<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="5.0">
+		<ScrollView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+			<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+				<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+					<TextView android:layout_marginBottom="@dimen/style_preset_margin_bottom" android:text="@string/style_name_choose" style="@style/section_divider" />
+					<LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/container_preset" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/style_preset_margin_bottom" />
+				</LinearLayout>
+				<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+					<TextView android:text="@string/style_name_opacity" style="@style/section_divider" />
+					<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+						<RelativeLayout android:orientation="horizontal" android:paddingLeft="@dimen/style_sub_title_padding_left" android:layout_width="fill_parent" android:layout_height="@dimen/seekbar_height">
+							<TextView android:textColor="@color/style_opacity_subtitle_color" android:id="@id/textView1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/style_sub_title_margin_top" android:layout_marginBottom="@dimen/style_sub_title_margin_bottom" android:text="@string/style_name_text" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+							<ImageView android:id="@id/imageView1" android:background="@drawable/opacity_preview_0" android:layout_width="@dimen/color_view_width_height" android:layout_height="@dimen/color_view_width_height" android:layout_marginLeft="@dimen/style_image_margin_left" android:layout_below="@id/textView1" android:layout_alignLeft="@id/textView1" />
+							<com.pantech.widget.SkySlideTheme android:id="@id/seekbar_text" android:layout_width="@dimen/seekbar_width" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/style_image_margin_right" android:layout_marginRight="@dimen/style_image_margin_right" android:max="100" android:layout_toRightOf="@id/imageView1" android:layout_alignBottom="@id/imageView1" android:layout_alignParentBottom="true" />
+							<ImageView android:id="@id/color_text" android:background="@drawable/image_border" android:layout_width="@dimen/color_view_width_height" android:layout_height="@dimen/color_view_width_height" android:src="@drawable/opacity_preview_100" android:layout_toRightOf="@id/seekbar_text" android:layout_alignBottom="@id/imageView1" />
+						</RelativeLayout>
+						<View android:background="#ff969696" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+						<RelativeLayout android:orientation="horizontal" android:paddingLeft="@dimen/style_sub_title_padding_left" android:layout_width="fill_parent" android:layout_height="@dimen/seekbar_height">
+							<TextView android:textColor="@color/style_opacity_subtitle_color" android:id="@id/textView2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/style_sub_title_margin_top" android:layout_marginBottom="@dimen/style_sub_title_margin_bottom" android:text="@string/style_name_background" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+							<ImageView android:id="@id/imageView2" android:background="@drawable/opacity_preview_0" android:layout_width="@dimen/color_view_width_height" android:layout_height="@dimen/color_view_width_height" android:layout_marginLeft="@dimen/style_image_margin_left" android:layout_below="@id/textView2" android:layout_alignLeft="@id/textView2" />
+							<com.pantech.widget.SkySlideTheme android:id="@id/seekbar_background" android:layout_width="@dimen/seekbar_width" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/style_image_margin_right" android:layout_marginRight="@dimen/style_image_margin_right" android:max="100" android:layout_toRightOf="@id/imageView2" android:layout_alignBottom="@id/imageView2" android:layout_alignParentBottom="true" />
+							<ImageView android:id="@id/color_background" android:background="@drawable/image_border" android:layout_width="@dimen/color_view_width_height" android:layout_height="@dimen/color_view_width_height" android:src="@drawable/opacity_preview_100" android:layout_toRightOf="@id/seekbar_background" android:layout_alignBottom="@id/imageView2" />
+						</RelativeLayout>
+						<View android:background="#ff969696" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+						<RelativeLayout android:orientation="horizontal" android:paddingLeft="@dimen/style_sub_title_padding_left" android:layout_width="fill_parent" android:layout_height="@dimen/seekbar_height">
+							<TextView android:textColor="@color/style_opacity_subtitle_color" android:id="@id/textView3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/style_sub_title_margin_top" android:layout_marginBottom="@dimen/style_sub_title_margin_bottom" android:text="@string/style_name_outline" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+							<ImageView android:id="@id/imageView3" android:background="@drawable/opacity_preview_0" android:layout_width="@dimen/color_view_width_height" android:layout_height="@dimen/color_view_width_height" android:layout_marginLeft="@dimen/style_image_margin_left" android:layout_below="@id/textView3" android:layout_alignLeft="@id/textView3" />
+							<com.pantech.widget.SkySlideTheme android:id="@id/seekbar_outline" android:layout_width="@dimen/seekbar_width" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/style_image_margin_right" android:layout_marginRight="@dimen/style_image_margin_right" android:max="100" android:layout_alignBottom="@id/imageView3" android:layout_alignParentBottom="true" android:layout_toEndOf="@id/imageView3" />
+							<ImageView android:id="@id/color_outline" android:background="@drawable/image_border" android:layout_width="@dimen/color_view_width_height" android:layout_height="@dimen/color_view_width_height" android:src="@drawable/opacity_preview_100" android:layout_alignBottom="@id/imageView3" android:layout_toEndOf="@id/seekbar_outline" />
+						</RelativeLayout>
+					</LinearLayout>
+				</LinearLayout>
+				<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+					<TextView android:text="@string/style_name_bg" style="@style/section_divider" />
+					<LinearLayout android:paddingLeft="36.0dip" android:paddingTop="36.0dip" android:paddingRight="36.0dip" android:paddingBottom="36.0dip" android:layout_width="fill_parent" android:layout_height="280.0dip">
+						<RelativeLayout android:id="@id/keyboard_bg_layout" android:background="@drawable/preview_keyboard_bg" android:layout_width="288.0dip" android:layout_height="202.0dip">
+							<ImageButton android:id="@id/delete_image" android:background="@drawable/keyboard_style_image_add_selector" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:src="@drawable/icon_keyboard_bg_delete" android:layout_alignParentTop="true" android:layout_marginEnd="6.0dip" android:layout_alignParentEnd="true" />
+							<ImageButton android:id="@id/add_image" android:background="@drawable/keyboard_style_image_add_selector" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon_keyboard_bg_add_1" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+						</RelativeLayout>
+					</LinearLayout>
+				</LinearLayout>
+			</LinearLayout>
+		</ScrollView>
+	</LinearLayout>
+	<RelativeLayout android:layout_gravity="bottom" android:layout_width="wrap_content" android:layout_height="wrap_content">
+		<include layout="@layout/bottom_confirm_button" />
+	</RelativeLayout>
+</LinearLayout>

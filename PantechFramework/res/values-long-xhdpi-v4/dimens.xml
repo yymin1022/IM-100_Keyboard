@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<dimen name="thumbnail_check_box_margin_left">69.0dip</dimen>
+<dimen name="thumbnail_portrait_bg_margin_left">4.0dip</dimen>
+<dimen name="thumbnail_portrait_image_margin_left">8.0dip</dimen>
+<dimen name="thumbnail_portrait_text_margin_left">4.0dip</dimen>
+<dimen name="value_portrait_thumbnail_list_side_padding">6.0dip</dimen>
+<dimen name="value_portrait_thumbnail_list_column_width">116.0dip</dimen>
+<dimen name="value_portrait_thumbnail_view_width">116.0dip</dimen>
+<dimen name="value_landscape_thumbnail_view_width">180.0dip</dimen>
+</resources>

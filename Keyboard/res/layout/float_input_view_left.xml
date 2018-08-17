@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<com.pantech.inputmethod.skyime.InputView xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+		<LinearLayout android:orientation="horizontal" android:id="@id/suggestions_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+			<RelativeLayout android:orientation="horizontal" android:id="@id/float_view_move_bar" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+				<ImageButton android:id="@id/float_move_button" android:background="#ffffffff" android:layout_width="wrap_content" android:layout_height="@dimen/floating_move_button_height" android:layout_marginLeft="7.0dip" />
+				<ImageButton android:id="@id/switch_normal_mode_button" android:background="#ffffffff" android:layout_width="wrap_content" android:layout_height="@dimen/floating_move_button_height" android:layout_marginRight="7.0dip" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+			</RelativeLayout>
+		</LinearLayout>
+		<com.pantech.inputmethod.keyboard.LatinKeyboardView android:id="@id/keyboard_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+	</LinearLayout>
+</com.pantech.inputmethod.skyime.InputView>

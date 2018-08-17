@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Keyboard xmlns:latin="http://schemas.android.com/apk/res/com.pantech.inputmethod.skyime" latin:rowHeight="@dimen/qwerty_keyheight" latin:keyWidth="@dimen/key_width_split">
+	<include latin:keyboardLayout="@xml/kbd_key_styles" />
+	<switch>
+		<case latin:hideEmojiMode="true">
+			<include latin:keyboardLayout="@xml/kbd_top_number_row_split" />
+		</case>
+		<default>
+			<include latin:keyboardLayout="@xml/kbd_top_symbol_emoji_row_split" />
+		</default>
+	</switch>
+	<Row>
+		<Key latin:code="@integer/key_symbol_01" latin:backgroundType="normal" />
+		<Key latin:code="@integer/key_symbol_02" latin:backgroundType="normal" />
+		<Key latin:code="@integer/key_symbol_03" latin:backgroundType="normal" />
+		<Key latin:code="@integer/key_symbol_04" latin:backgroundType="normal" />
+		<Key latin:code="@integer/key_symbol_05" latin:backgroundType="normal" />
+		<Key latin:code="@integer/key_symbol_06" latin:backgroundType="normal" latin:keyXPos="@dimen/key_xpos_split_row_1_3" />
+		<Key latin:code="@integer/key_symbol_07" latin:backgroundType="normal" />
+		<Key latin:code="@integer/key_symbol_08" latin:backgroundType="normal" />
+		<Key latin:code="@integer/key_symbol_09" latin:backgroundType="normal" />
+		<Key latin:code="@integer/key_symbol_10" latin:backgroundType="normal" />
+	</Row>
+	<Row>
+		<Key latin:code="@integer/key_symbol_11" latin:backgroundType="normal" latin:keyXPos="@dimen/key_xpos_split_row_2_1" />
+		<Key latin:code="@integer/key_symbol_12" latin:backgroundType="normal" />
+		<Key latin:code="@integer/key_symbol_13" latin:backgroundType="normal" />
+		<Key latin:code="@integer/key_symbol_14" latin:backgroundType="normal" />
+		<Key latin:code="@integer/key_symbol_15" latin:backgroundType="normal" />
+		<Key latin:code="@integer/key_symbol_16" latin:backgroundType="normal" latin:keyXPos="@dimen/key_xpos_split_row_2_2" />
+		<Key latin:code="@integer/key_symbol_17" latin:backgroundType="normal" />
+		<Key latin:code="@integer/key_symbol_18" latin:backgroundType="normal" />
+		<Key latin:code="@integer/key_symbol_19" latin:backgroundType="normal" />
+	</Row>
+	<Row>
+		<Key latin:keyLabel="1/5" latin:keyStyle="symbolPageViewStyle" latin:keyWidth="@dimen/key_width_split_shift_delete" />
+		<Key latin:code="@integer/key_symbol_20" latin:backgroundType="normal" />
+		<Key latin:code="@integer/key_symbol_21" latin:backgroundType="normal" />
+		<Key latin:code="@integer/key_symbol_22" latin:backgroundType="normal" />
+		<Key latin:code="@integer/key_symbol_23" latin:backgroundType="normal" />
+		<Key latin:code="@integer/key_symbol_24" latin:backgroundType="normal" latin:keyXPos="@dimen/key_xpos_split_row_2_2" />
+		<Key latin:code="@integer/key_symbol_25" latin:backgroundType="normal" />
+		<Key latin:code="@integer/key_symbol_26" latin:backgroundType="normal" />
+		<Key latin:keyStyle="deleteKeyStyle" latin:keyWidth="@dimen/key_width_split_shift_delete" />
+	</Row>
+	<include latin:keyboardLayout="@xml/kbd_number_symbols_bottom" />
+</Keyboard>

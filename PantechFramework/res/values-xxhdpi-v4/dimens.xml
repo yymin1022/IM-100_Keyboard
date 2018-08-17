@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<dimen name="slide_x_title">14.0dip</dimen>
+<dimen name="slide_y_title">15.0dip</dimen>
+<dimen name="slide_x_outprog">24.0dip</dimen>
+<dimen name="slide_y_outprog">45.0dip</dimen>
+<dimen name="slide_w_outprog_max">328.0dip</dimen>
+<dimen name="slide_w_outprog_min">41.0dip</dimen>
+<dimen name="slide_title">17.0dip</dimen>
+<dimen name="slide_lv_text">13.0dip</dimen>
+<dimen name="slide_lv_num">13.0dip</dimen>
+<dimen name="slide_h_img_outprog">39.0dip</dimen>
+<dimen name="slide_w_img_handle">39.0dip</dimen>
+<dimen name="slide_h_img_handle">39.0dip</dimen>
+<dimen name="slide_y_popup_box_text">2.0dip</dimen>
+<dimen name="slide_w_img_popup_box">34.0dip</dimen>
+<dimen name="slide_h_img_popup_box">46.0dip</dimen>
+<dimen name="slide_popup_box_text">12.0dip</dimen>
+<dimen name="slide_w_img_popup_box_max">75.0dip</dimen>
+<dimen name="slide_popup_box_text_digit3">12.0dip</dimen>
+<dimen name="slide_x_prog_margin">16.0dip</dimen>
+<dimen name="slide_w_img_handle_outprog">16.0dip</dimen>
+<dimen name="slide_h_slide_max">110.0dip</dimen>
+<dimen name="slide_h_slide_mid">93.0dip</dimen>
+<dimen name="slide_h_slide_min">39.0dip</dimen>
+</resources>

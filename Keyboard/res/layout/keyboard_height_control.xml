@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@id/keyboard_height_control_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+	<LinearLayout android:orientation="vertical" android:background="#ffe9edef" android:layout_width="fill_parent" android:layout_height="wrap_content">
+		<TextView android:textSize="14.0sp" android:textColor="#ff000000" android:id="@id/heightControlString" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" android:text="@string/keyboard_height_subtitle" android:layout_marginStart="14.0dip" android:layout_marginEnd="14.0dip" />
+	</LinearLayout>
+	<EditText android:id="@id/heightControlTest" android:layout_width="fill_parent" android:layout_height="39.0dip" android:layout_marginTop="7.0dip" android:hint="@string/keyboard_height_edit_box_content" android:singleLine="true" android:privateImeOptions="com.pantech.inputmethod.skyime.heightControl" android:imeOptions="actionDone" android:layout_marginStart="14.0dip" android:layout_marginEnd="14.0dip" />
+	<LinearLayout android:orientation="horizontal" android:id="@id/footer_for_controller" android:background="@android:color/transparent" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/keyboard_height_control_strip_height" />
+</LinearLayout>

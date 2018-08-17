@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Keyboard xmlns:latin="http://schemas.android.com/apk/res/com.pantech.inputmethod.skyime" latin:keyboardTopPadding="@dimen/floating_qwerty_top_padding" latin:rowHeight="@dimen/floating_qwerty_keyheight" latin:keyWidth="@dimen/key_width_split">
+	<include latin:keyboardLayout="@xml/kbd_key_styles" />
+	<switch>
+		<case latin:hideEmojiMode="true">
+			<Row latin:rowHeight="@dimen/top_num_keyheight" latin:keyWidth="20.000004%p">
+				<Key latin:backgroundType="topnumber" latin:keyLabel="6" />
+				<Key latin:backgroundType="topnumber" latin:keyLabel="7" />
+				<Key latin:backgroundType="topnumber" latin:keyLabel="8" />
+				<Key latin:backgroundType="topnumber" latin:keyLabel="9" />
+				<Key latin:backgroundType="topnumber" latin:keyLabel="0" />
+			</Row>
+		</case>
+		<default>
+			<Row latin:rowHeight="@dimen/top_num_keyheight" latin:keyWidth="25.0%p">
+				<Key latin:backgroundType="emojiTab" latin:keyStyle="switchEmojiNatureKeyStyle" />
+				<Key latin:backgroundType="emojiTab" latin:keyStyle="switchEmojiPlacesKeyStyle" />
+				<Key latin:backgroundType="emojiTab" latin:keyStyle="switchEmojiSymbolsKeyStyle" />
+				<Key latin:backgroundType="emojiTab" latin:keyStyle="switchEmojiEmoticonKeyStyle" />
+			</Row>
+		</default>
+	</switch>
+	<Row>
+		<Key latin:code="@integer/key_symbol_06" latin:backgroundType="normal" latin:keyLabel="." />
+		<Key latin:code="@integer/key_symbol_07" latin:backgroundType="normal" latin:keyLabel="," />
+		<Key latin:code="@integer/key_symbol_08" latin:backgroundType="normal" latin:keyLabel="4" />
+		<Key latin:code="@integer/key_symbol_09" latin:backgroundType="normal" latin:keyLabel="5" />
+		<Key latin:code="@integer/key_symbol_10" latin:backgroundType="normal" latin:keyLabel="6" />
+	</Row>
+	<Row>
+		<Key latin:code="@integer/key_symbol_16" latin:backgroundType="normal" latin:keyLabel="\@" latin:keyXPos="@dimen/key_xpos_split_row_2_1" />
+		<Key latin:code="@integer/key_symbol_17" latin:backgroundType="normal" latin:keyLabel="_" />
+		<Key latin:code="@integer/key_symbol_18" latin:backgroundType="normal" latin:keyLabel="-" />
+		<Key latin:code="@integer/key_symbol_19" latin:backgroundType="normal" latin:keyLabel="0" />
+	</Row>
+	<Row>
+		<Key latin:code="@integer/key_symbol_24" latin:backgroundType="normal" latin:keyLabel="8" latin:keyXPos="@dimen/key_xpos_split_row_2_1" />
+		<Key latin:code="@integer/key_symbol_25" latin:backgroundType="normal" latin:keyLabel="9" />
+		<Key latin:code="@integer/key_symbol_26" latin:backgroundType="normal" latin:keyLabel="\@" />
+		<Key latin:keyStyle="deleteKeyStyle" latin:keyWidth="@dimen/key_width_split_shift_delete" />
+	</Row>
+	<Row latin:rowHeight="@dimen/floating_common_keyheight">
+		<Key latin:keyStyle="spaceKeyStyle" latin:keyWidth="@dimen/key_width_split" />
+		<Key latin:keyStyle="symbolNextKeyStyle" latin:keyWidth="120.0dip" />
+		<Key latin:keyStyle="returnKeyStyle" latin:keyWidth="@dimen/key_width_split_shift_delete" />
+	</Row>
+</Keyboard>

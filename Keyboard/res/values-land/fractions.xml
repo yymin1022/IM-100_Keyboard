@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<fraction name="maxKeyboardHeight">50.0%p</fraction>
+<fraction name="minKeyboardHeight">36.0%p</fraction>
+<fraction name="key_width_mail_url">15.000999%p</fraction>
+<fraction name="key_width_shift_qwerty">15.000999%p</fraction>
+<fraction name="floating_number_keyheight">25.0%p</fraction>
+<fraction name="key_width_qwerty_shift_inset">0.0%p</fraction>
+<fraction name="key_width_emoticon">14.999998%</fraction>
+<fraction name="key_width_emoticon_symbol">10.000002%p</fraction>
+<fraction name="key_width_emoticon_delete">20.000004%p</fraction>
+<fraction name="key_width_emoticon_floating">14.999998%</fraction>
+<fraction name="key_width_emoticon_symbol_floating">10.000002%p</fraction>
+<fraction name="key_width_emoticon_delete_floating">20.000004%p</fraction>
+<fraction name="key_width_numsym_key">10.000002%p</fraction>
+<fraction name="key_xpos_qwerty_row2_floating">5.0009966%p</fraction>
+</resources>

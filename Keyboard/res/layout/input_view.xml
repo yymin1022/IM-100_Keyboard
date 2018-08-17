@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<com.pantech.inputmethod.skyime.InputView xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+	<View android:id="@id/key_preview_backing" android:layout_width="fill_parent" android:layout_height="@dimen/key_preview_backing_height" />
+	<LinearLayout android:orientation="horizontal" android:id="@id/suggestions_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+		<com.pantech.inputmethod.skyime.SuggestionsView android:gravity="center_vertical" android:id="@id/suggestions_view" android:layout_width="0.0dip" android:layout_height="@dimen/suggestions_strip_height" android:layout_weight="1.0" style="?attr/suggestionsViewStyle" />
+		<LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/recomm_parent" android:visibility="gone" android:clickable="true" android:layout_width="48.0dip" android:layout_height="fill_parent">
+			<ImageButton android:id="@id/recomm" android:background="@android:color/transparent" android:clickable="true" android:layout_width="28.0dip" android:layout_height="@dimen/suggestions_strip_height" />
+		</LinearLayout>
+		<LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/recomm_press_parent" android:visibility="gone" android:clickable="true" android:layout_width="48.0dip" android:layout_height="@dimen/suggestions_strip_height">
+			<ImageButton android:id="@id/recomm_press" android:background="@android:color/transparent" android:clickable="true" android:layout_width="28.0dip" android:layout_height="wrap_content" />
+		</LinearLayout>
+	</LinearLayout>
+	<FrameLayout android:orientation="horizontal" android:id="@id/input_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+		<com.pantech.inputmethod.keyboard.LatinKeyboardView android:id="@id/keyboard_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+		<ImageButton android:gravity="center" android:id="@id/onehand_left_button" android:background="@drawable/transparent" android:clickable="true" android:layout_width="60.0dip" android:layout_height="fill_parent" android:layout_marginLeft="15.0dip" android:src="@drawable/keyboard_btn_trans_left_w_opacity" />
+		<ImageButton android:gravity="center" android:id="@id/onehand_right_button" android:background="@drawable/transparent" android:clickable="true" android:layout_width="60.0dip" android:layout_height="fill_parent" android:layout_marginLeft="285.0dip" android:src="@drawable/keyboard_btn_trans_right_w_opacity" />
+	</FrameLayout>
+</com.pantech.inputmethod.skyime.InputView>

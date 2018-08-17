@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<merge xmlns:latin="http://schemas.android.com/apk/res/com.pantech.inputmethod.skyime">
+	<Row latin:rowHeight="@dimen/top_num_keyheight_floating" latin:keyWidth="12.5%p">
+		<Key latin:backgroundType="emojiTab" latin:keyStyle="switchNumSymKeyStyle" />
+		<Key latin:backgroundType="emojiTab" latin:keyStyle="switchEmojiRecentsKeyStyle" />
+		<Key latin:backgroundType="emojiTab" latin:keyStyle="switchEmojiPeopleKeyStyle" />
+		<Key latin:backgroundType="emojiTab" latin:keyStyle="switchEmojiObjectsKeyStyle" />
+		<Key latin:backgroundType="emojiTab" latin:keyStyle="switchEmojiNatureKeyStyle" />
+		<Key latin:backgroundType="emojiTab" latin:keyStyle="switchEmojiPlacesKeyStyle" />
+		<Key latin:backgroundType="emojiTab" latin:keyStyle="switchEmojiSymbolsKeyStyle" />
+		<Key latin:backgroundType="emojiTab" latin:keyStyle="switchEmojiEmoticonKeyStyle" />
+	</Row>
+</merge>

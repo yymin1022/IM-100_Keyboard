@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<merge xmlns:latin="http://schemas.android.com/apk/res/com.pantech.inputmethod.skyime">
+	<switch>
+		<case latin:navigateAction="false" latin:hasSettingsKey="false">
+			<switch>
+				<case latin:mode="url|email">
+					<Key latin:backgroundType="functional" latin:keyLabel="." />
+				</case>
+				<case latin:hasShortcutKey="true">
+					<Key latin:keyStyle="shortcutKeyStyle" />
+				</case>
+				<default>
+					<Key latin:backgroundType="functional" latin:keyLabel="@string/keylabel_for_comma" />
+				</default>
+			</switch>
+		</case>
+		<default>
+			<switch>
+				<case latin:mode="url|email">
+					<Key latin:backgroundType="functional" latin:keyLabel="." latin:keyWidth="8.000004%p" />
+				</case>
+				<case latin:hasShortcutKey="true">
+					<Key latin:keyStyle="shortcutKeyStyle" latin:keyWidth="8.000004%p" />
+				</case>
+				<default>
+					<Key latin:backgroundType="functional" latin:keyLabel="@string/keylabel_for_comma" latin:keyWidth="8.000004%p" />
+				</default>
+			</switch>
+		</default>
+	</switch>
+</merge>

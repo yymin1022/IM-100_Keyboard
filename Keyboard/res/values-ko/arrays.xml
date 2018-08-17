@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string-array name="eng_keyboard_types"><item>쿼티</item><item>기본</item></string-array>
+<string-array name="kor_keyboard_types"><item>기본쿼티</item><item>심플쿼티</item><item>SKY</item><item>천지인</item><item>나랏글</item></string-array>
+<string-array name="kor_keyboard_types_summary"><item>기본 자음과 모음을 모두 제공하는 3x4 형태의 입력방식</item><item>PC의 키보드와 동일한 배열의 입력 방식</item><item>기본쿼티의 자판을 심플하게 배치하여 스마트폰 화면에서 사용성을 높인 입력 방식</item><item>ㅡ ㅣ · 을 사용해서 모음을 조합하여 입력하는 방식</item><item>자음과 모음을 획추가를 통해 확장하여 입력하는 방식</item></string-array>
+<string-array name="theme_type_entries"><item>스타일리쉬 블랙</item><item>모던 블랙</item><item>어반 그레이</item><item>퓨어 라이트</item><item>피아노 블랙</item><item>콜드 그레이</item><item>딥 블루</item><item>오션 블루</item><item>블루 아이스</item><item>자수정</item><item>에메랄드 시티</item><item>에코 그린</item><item>그린 그래스</item><item>트로피칼</item><item>펑키 레드</item><item>메이플</item><item>러블리 핑크</item><item>롤리팝</item><item>머스타드</item><item>솜사탕</item></string-array>
+<string-array name="height_type_entries"><item>기본</item><item>크게</item></string-array>
+<string-array name="sound_type_entries"><item>무음</item><item>키보드음1</item><item>키보드음2</item><item>키보드음3</item><item>키보드음4</item></string-array>
+<string-array name="eng_keyboard_types_summary"><item>PC의 키보드와 동일한 배열의 입력 방식</item><item>3X4 배열의 입력 방식</item></string-array>
+</resources>

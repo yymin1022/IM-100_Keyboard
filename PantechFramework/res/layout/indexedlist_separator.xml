@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<com.pantech.widget.SkyIndexedSeparator xmlns:android="http://schemas.android.com/apk/res/android" android:background="@drawable/dark_header" android:layout_width="fill_parent" android:layout_height="19.0dip" android:maxHeight="19.0dip" android:minHeight="19.0dip">
+	<TextView android:textSize="17.0dip" android:gravity="center|left" android:id="@id/indexedlist_spearator_text" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="20.0dip" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+</com.pantech.widget.SkyIndexedSeparator>

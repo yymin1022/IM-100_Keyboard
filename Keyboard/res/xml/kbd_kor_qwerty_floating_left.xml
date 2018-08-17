@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Keyboard xmlns:latin="http://schemas.android.com/apk/res/com.pantech.inputmethod.skyime" latin:keyboardTopPadding="@dimen/floating_qwerty_top_padding" latin:rowHeight="@dimen/floating_qwerty_keyheight" latin:keyWidth="@dimen/key_width_split">
+	<include latin:keyboardLayout="@xml/kbd_key_styles" />
+	<Row latin:rowHeight="@dimen/top_num_keyheight">
+		<Key latin:backgroundType="topnumber" latin:keyLabel="1" />
+		<Key latin:backgroundType="topnumber" latin:keyLabel="2" />
+		<Key latin:backgroundType="topnumber" latin:keyLabel="3" />
+		<Key latin:backgroundType="topnumber" latin:keyLabel="4" />
+		<Key latin:backgroundType="topnumber" latin:keyLabel="5" />
+	</Row>
+	<Row>
+		<Key latin:code="@integer/key_kor_pieup" latin:keyLabel="ㅂ" latin:keyStyle="lpQwertyNum1KeyStyle" />
+		<Key latin:code="@integer/key_kor_cieuc" latin:keyLabel="ㅈ" latin:keyStyle="lpQwertyNum2KeyStyle" />
+		<Key latin:code="@integer/key_kor_tikeut" latin:keyLabel="ㄷ" latin:keyStyle="lpQwertyNum3KeyStyle" />
+		<Key latin:code="@integer/key_kor_kiyeok" latin:keyLabel="ㄱ" latin:keyStyle="lpQwertyNum4KeyStyle" />
+		<Key latin:code="@integer/key_kor_sios" latin:keyLabel="ㅅ" latin:keyStyle="lpQwertyNum5KeyStyle" />
+	</Row>
+	<Row>
+		<Key latin:code="@integer/key_kor_mieum" latin:keyLabel="ㅁ" latin:keyStyle="lpSym01KeyStyle" latin:keyXPos="@dimen/key_xpos_split_row_2_1" />
+		<Key latin:code="@integer/key_kor_nieun" latin:keyLabel="ㄴ" latin:keyStyle="lpSym02KeyStyle" />
+		<Key latin:code="@integer/key_kor_ieung" latin:keyLabel="ㅇ" latin:keyStyle="lpSym03KeyStyle" />
+		<Key latin:code="@integer/key_kor_rieul" latin:keyLabel="ㄹ" latin:keyStyle="lpSym04KeyStyle" />
+		<Key latin:code="@integer/key_kor_hieuh" latin:keyLabel="ㅎ" latin:keyStyle="lpSym05KeyStyle" />
+	</Row>
+	<Row>
+		<Key latin:keyStyle="shiftKeyStyle" latin:keyWidth="@dimen/key_width_split_shift_delete" />
+		<Key latin:code="@integer/key_kor_khieukh" latin:keyLabel="ㅋ" latin:keyStyle="lpSym10KeyStyle" />
+		<Key latin:code="@integer/key_kor_thieuth" latin:keyLabel="ㅌ" latin:keyStyle="lpSym11KeyStyle" />
+		<Key latin:code="@integer/key_kor_chieuch" latin:keyLabel="ㅊ" latin:keyStyle="lpSym12KeyStyle" />
+		<Key latin:code="@integer/key_kor_phieuph" latin:keyLabel="ㅍ" latin:keyStyle="lpSym13KeyStyle" />
+	</Row>
+	<Row latin:rowHeight="@dimen/qwerty_common_button_top_padding" />
+	<Row latin:rowHeight="@dimen/floating_common_keyheight" latin:keyWidth="@dimen/key_width_split_shift_delete">
+		<Key latin:keyStyle="moreSettings" />
+		<Key latin:keyStyle="switchEnglishLandscapeFloatingKeyStyle" />
+		<Key latin:keyStyle="spaceKeyStyle" latin:keyWidth="120.0dip" />
+	</Row>
+</Keyboard>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<dimen name="thumbnail_check_box_margin_left">51.0dip</dimen>
+<dimen name="thumbnail_check_box_margin_top">45.0dip</dimen>
+<dimen name="thumbnail_check_box_margin_top_text">45.0dip</dimen>
+</resources>

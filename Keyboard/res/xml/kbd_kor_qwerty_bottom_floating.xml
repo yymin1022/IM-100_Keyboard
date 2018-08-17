@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<merge xmlns:latin="http://schemas.android.com/apk/res/com.pantech.inputmethod.skyime">
+	<Row latin:rowHeight="@dimen/floating_common_keyheight">
+		<Key latin:keyStyle="moreSettingsPortraitFloatingKeyStyle" latin:keyWidth="@fraction/key_width_numsym" />
+		<Key latin:keyStyle="switchEnglishLandscapeFloatingKeyStyle" latin:keyWidth="@fraction/key_width_kor_eng" />
+		<Key latin:keyStyle="spacePortraitFloatingKeyStyle" latin:keyWidth="@fraction/key_width_space_normal" />
+		<Key latin:keyStyle="morePeriodPortraitFloatingKeyStyle" latin:keyWidth="@fraction/key_width_dot" />
+		<Key latin:keyStyle="returnPortraitFloatingKeyStyle" latin:keyWidth="@fraction/key_width_action" />
+	</Row>
+</merge>

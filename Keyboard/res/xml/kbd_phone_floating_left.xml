@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Keyboard xmlns:latin="http://schemas.android.com/apk/res/com.pantech.inputmethod.skyime" latin:keyboardTopPadding="@dimen/floating_qwerty_top_padding" latin:rowHeight="@fraction/floating_number_keyheight" latin:keyWidth="@fraction/floating_phone_keywidth_left">
+	<include latin:keyboardLayout="@xml/kbd_key_styles" />
+	<include latin:keyboardLayout="@xml/kbd_numkey_styles" />
+	<Row>
+		<Key latin:keyStyle="num1KeyStyle" />
+		<Key latin:keyStyle="num2KeyStyle" />
+		<Key latin:keyStyle="num3KeyStyle" />
+	</Row>
+	<Row>
+		<Key latin:keyStyle="num4KeyStyle" />
+		<Key latin:keyStyle="num5KeyStyle" />
+		<Key latin:keyStyle="num6KeyStyle" />
+	</Row>
+	<Row>
+		<Key latin:keyStyle="num7KeyStyle" />
+		<Key latin:keyStyle="num8KeyStyle" />
+		<Key latin:keyStyle="num9KeyStyle" />
+	</Row>
+	<Row>
+		<Key latin:keyStyle="numStarKeyStyle" />
+		<Key latin:keyStyle="num0KeyStyle" />
+		<Key latin:keyStyle="numHashKeyStyle" />
+	</Row>
+</Keyboard>

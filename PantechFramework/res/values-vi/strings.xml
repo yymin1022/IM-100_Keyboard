@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="cover_loading_message">Vui lòng chờ đợi để tải.</string>
+<string name="cover_loading_title">Đang tải...</string>
+<string name="date_picker_dialog_title">Đặt ngày</string>
+<string name="date_time_done">Xong</string>
+<string name="loding">Đang tải...</string>
+<string name="lunar">Âm lịch</string>
+<string name="popup_cancel">Hủy</string>
+<string name="popup_close">Đóng</string>
+<string name="popup_minimize">Giảm thiểu</string>
+<string name="popup_no">Không</string>
+<string name="popup_ok">OK</string>
+<string name="popup_play">Phát</string>
+<string name="popup_retrylater">"Thử lại
+sau"</string>
+<string name="popup_yes">Có</string>
+<string name="saving">Đang lưu...</string>
+<string name="solar">Dương lịch</string>
+<string name="time_picker_dialog_title">Đặt giờ</string>
+<string name="time_picker_separator">:</string>
+<string name="hello">Hello World, Pantech_UI!</string>
+<string name="app_name">SkyComponent Resource</string>
+<string name="tabtitle">tiêu đề thẻ</string>
+</resources>

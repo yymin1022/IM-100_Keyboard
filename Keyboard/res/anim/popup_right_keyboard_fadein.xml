@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<set xmlns:android="http://schemas.android.com/apk/res/android" android:interpolator="@android:anim/decelerate_interpolator">
+	<alpha android:duration="@integer/config_mini_keyboard_fadein_anim_time" android:fromAlpha="0.7" android:toAlpha="1.0" />
+	<translate android:duration="75" android:fromXDelta="-1.9999981%p" android:toXDelta="0.0" />
+</set>
