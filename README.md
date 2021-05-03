@@ -6,11 +6,11 @@
 팬택 IM-100 (2016) 기기에 선탑재된 기본 키보드 애플리케이션을
 Android 6.0 이상의 모든 기기에서 이용할 수 있도록 포팅한 자료입니다.
 
-# HOW TO
+### HOW TO
 
 - <a href="https://github.com/yymin1022/IM-100_Keyboard/releases">Release 페이지</a> 에서 Latest 태그로 업로드된 2개의 apk를 다운로드한 뒤 기기에 설치합니다.
 
-# Known Problems
+### Known Problems
 
 - 키보드 클릭시 소리/진동 반응 기능이 비활성화됩니다.
 
