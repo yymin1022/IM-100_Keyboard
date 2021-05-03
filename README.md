@@ -1,23 +1,25 @@
-# Pantech IM-100 Keyboard Port
+# Pantech IM-100 Keyboard Port for Android 6.0+
 
-# 팬택 IM-100 키보드 포팅본
+<img src="Images/app_1.png" width="30%" height="30%" alt="Screenshot"></img>
+<img src="Images/app_2.png" width="30%" height="30%" alt="Screenshot"></img>
 
-## 알려진 문제점 / Known Problems
+팬택 IM-100 (2016) 기기에 선탑재된 기본 키보드 애플리케이션을
+Android 6.0 이상의 모든 기기에서 이용할 수 있도록 포팅한 자료입니다.
 
-- 키보드 클릭시 소리/진동 반응 사용이 불가합니다.
+# HOW TO
 
-- 알 수 없는 특정 상황에서 키보드 높이 조절이 비활성화됩니다.
+- <a href="https://github.com/yymin1022/IM-100_Keyboard/releases">Release 페이지</a> 에서 Latest 태그로 업로드된 2개의 apk를 다운로드한 뒤 기기에 설치합니다.
 
-- Keyboard click feedback(Sound, Vibration) is unavailable.
+# Known Problems
 
-- Sometimes, keyboard height setting is disabled and unaccessable.
+- 키보드 클릭시 소리/진동 반응 기능이 비활성화됩니다.
 
-## 설치 방법 / How to Use
-- Keyboard, Pantech Framework 폴더에서 각각 app.apk 파일을 다운로드하여 설치합니다.
+- 특정 상황에서 키보드 높이 조절 기능이 비활성화됩니다.
 
-- Download app.apk file from each Keyboard, Pantech Framework folder.and install them.
+- Android 9 이상의 OS에서 키보드가 보이지 않습니다.
 
-## 주의사항 / Caution(Warning)
-- 해당 파일들의 저작권은 모두 저 유용민에게 있으며, 이를 상업적으로 이용하거나 하는 행위는 저작권법에 위반되는 행위입니다. 공유를 원하는 경우 본 Github의 링크를 포함하실 것을 부탁드립니다.
+***
 
-- All files copyright is  managed by me. If you want to share it, please share this Github url.
+### 배포 내역
+* 2016\. 07\. 개발 시작
+* 2016\. 08\. V1\.0 배포
